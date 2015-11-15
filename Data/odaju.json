@@ -1,0 +1,138 @@
+﻿{
+  "About": {
+    "Mision": "OdaJu Store es una empresa basada en la comercialización de accesorios, ropa, bolsos y calzado neo-artesanal de diseñadores antiqueños con alta calidad. <br />Identificada con la diversidad de productos de las últimas tendencias de moda para hombre y mujer contando con la asesoría de imagen de expertos que brindan una mejor experiencia para todos nuestros clientes.",
+    "QuienesSomos": "Gente que actúa con pasión, actitud, lealtad, honestidad, respeto y perseverancia, buscando llegar a la unión de la originalidad y calidad de nuestros productos, ofreciendo una posibilidad de mercadeo diferente e innovadora a nuestros clientes Somos una marca Original basado en las tendencias, que mezcla el estilo urbano y hípster, con carácter jovial, libre y creativo.",
+    "Redes": [
+      {
+        "Icon": "fa-dribbble",
+        "Link": "",
+        "Nombre": "Dribble",
+        "Orden": 7,
+        "Pintar": false
+      },
+      {
+        "Icon": "fa-facebook",
+        "Link": "",
+        "Nombre": "Facebook",
+        "Orden": 2,
+        "Pintar": true
+      },
+      {
+        "Icon": "fa-google-plus",
+        "Link": "",
+        "Nombre": "Google+",
+        "Orden": 5,
+        "Pintar": false
+      },
+      {
+        "Icon": "fa-instagram",
+        "Link": "",
+        "Nombre": "Instagram",
+        "Orden": 3,
+        "Pintar": true
+      },
+      {
+        "Icon": "fa-linkedin",
+        "Link": "",
+        "Nombre": "LikedIn",
+        "Orden": 4,
+        "Pintar": false
+      },
+      {
+        "Icon": "fa-envelope",
+        "Link": "",
+        "Nombre": "Mail",
+        "Orden": 8,
+        "Pintar": true
+      },
+      {
+        "Icon": "fa-pinterest",
+        "Link": "",
+        "Nombre": "Pinterest",
+        "Orden": 6,
+        "Pintar": false
+      },
+      {
+        "Icon": "fa-twitter",
+        "Link": "",
+        "Nombre": "Twitter",
+        "Orden": 0,
+        "Pintar": false
+      }
+    ],
+    "Vision": "Ser una tienda reconocida a nivel local, regional e internacional que articule las necesidades de compra, servicio, y reconocimiento de nuestros clientes, clientes de espíritu libre y creativo, aquellos que quieren romper con lo cotidiano y repetido."
+  },
+  "Catalogo": [
+    {
+      "Descripcion": "",
+      "Imagen": "",
+      "Nombre": "",
+      "Precio": ""
+    },
+    {
+      "Descripcion": "",
+      "Imagen": "",
+      "Nombre": "",
+      "Precio": ""
+    },
+    {
+      "Descripcion": "",
+      "Imagen300": "",
+      "Imagen600": "",
+      "Nombre": "",
+      "Precio": ""
+    }
+  ],
+  "Equipo": [
+    {
+      "Nombre": "",
+      "Cargo": "",
+      "Imagen": "",
+      "Descripcion": "",
+      "Redes": {
+        "Facebook": "",
+        "Twitter": "",
+        "Instagram": "",
+        "Pinterest": "",
+        "Dribble": ""
+      }
+    }
+  ],
+  "InfoGeneral": {
+    "Direccion": "",
+    "Telefono": "",
+    "Correo": "",
+    "Nota1": "",
+    "Nota2": ""
+  },
+  "Noticias": [
+    {
+      "Autor": "Odaju Store",
+      "Contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Fecha": "15/11/2015",
+      "Imagen": "../images/bannerDefault.png",
+      "Prev": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Titulo": "Noticia de Prueba 1"
+    },
+    {
+      "Autor": "Odaju Store",
+      "Contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Fecha": "15/11/2015",
+      "Imagen": "../images/bannerDefault.png",
+      "Prev": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Titulo": "Noticia de Prueba 2"
+    }
+  ],
+  "Slider1": [
+    {
+      "Imagen": "",
+      "Texto": ""
+    }
+  ],
+  "Testimonios": [
+    {
+      "Nombre": "",
+      "Comentario": ""
+    }
+  ]
+}

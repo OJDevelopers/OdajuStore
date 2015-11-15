@@ -33,25 +33,28 @@
 -------------------------------------------------------------------*/
 /*---------------------start google web fonts---------------------*/
 @font-face {
-	font-family: 'Vidaloka';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Vidaloka '), local('Vidaloka-Regular'), url(http://fonts.gstatic.com/s/vidaloka/v8/ggtjDKUwkCAXpO92rmcBQPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+    font-family: 'Roboto-Thin';
+    src: url('../fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LemonMilk';
+    src: url('../fonts/LemonMilk.otf') format('opentype');
 }
 /* latin */
-@font-face {
+/*@font-face {
   font-family: 'Droid Serif';
   font-style: normal;
   font-weight: 400;
   src: local('Droid Serif'), local('DroidSerif'), url(http://fonts.gstatic.com/s/droidserif/v6/0AKsP294HTD-nvJgucYTaOL2WfuF7Qc3ANwCvwl0TnA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
+}*/
 /*-----------------------Google web fonts end----------------------*/
 /*---------------------body start---------------------*/
 body {
 	background: #ffffff !important;
-	color: #121212;
-	font-family: Droid Serif, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+	color: #6C1B11;
+	font-family: Roboto-Thin;
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 1.65em;
@@ -245,7 +248,7 @@ width: 100%;
 }
 .menu li a {
 	display: inline-block;
-	font-family: Vidaloka, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif !important;
+	font-family: Roboto-Thin !important;
 	text-align: center;
 	padding: 4px 10px;
 	font-weight: normal;
@@ -253,7 +256,7 @@ width: 100%;
 	text-transform: uppercase;
 }
 .menu li a:hover {
-	color: #E14F4F;
+	color: #C9341F;
 	text-decoration: none;
 }
 .pagenav.fixedmenu {
@@ -311,7 +314,7 @@ ul.navbar-nav li a.active, .fixedmenu ul.menu li a.active {
 	padding: 0px !important;
 }
 .menu-fixedmenu a {
-	background: #ED2470;
+	background: #C9341F;
 	padding: 13px;
 	margin-top: -13px;
 	background: none;
@@ -458,14 +461,13 @@ ul.navbar-nav li a.active, .fixedmenu ul.menu li a.active {
 /*---------------------main slider css end---------------------*/
 /*---------------------title heading css end---------------------*/
 .tr_title h3 {
-	color: rgb(225, 79, 79);
-	font-family: 'Droid Serif';
+	color: #C9341F;
+	font-family: Roboto-Thin;
 	text-transform: uppercase;
 	padding: 0px 45px;
 	position: relative;
 	display: inline-block;
 	font-size: 60px;
-	font-family: Vidaloka;
 }
 .tr_title h3:before {
 	position: absolute;
@@ -488,7 +490,7 @@ ul.navbar-nav li a.active, .fixedmenu ul.menu li a.active {
 	border-radius: 50%;
 }
 .tr_news_title_small {
-	color: #444 !important;
+	color: #720516 !important;
 	float: left;
 	text-align: center;
 	margin: 20px 0 30px 0;
@@ -510,6 +512,14 @@ ul.navbar-nav li a.active, .fixedmenu ul.menu li a.active {
 	width: 100%;
 	text-align: center;
 }
+
+.tr_head_center {
+	position: relative;
+	margin: 41px auto;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
 .tr_head {
 	position: relative;
 	margin: 40px auto 0px;
@@ -519,7 +529,7 @@ ul.navbar-nav li a.active, .fixedmenu ul.menu li a.active {
 	text-align: center;
 }
 .tr_color {
-	color: #E14F4F;
+	color: #C9341F;
 }
 .tr_title_small {
 	float: left;
@@ -561,7 +571,7 @@ line-height: 65px;
 list-style: none;
 margin-right:10px;
 cursor: pointer;
-border: 1px solid #000;
+border: 1px solid #6C1B11;
 border-radius: 50%;
 webkit-transition: all 0.6s ease-out;
 -moz-transition: all 0.6s ease-out;
@@ -576,7 +586,7 @@ width: 100%;
 .tr_social_icon ul li a i {
 font-size: 40px;
 line-height: 65px;
-color: #111111;
+color: #6C1B11;
 }
 .tr_social_icon ul li:hover {
 opacity: 0.7;
@@ -620,10 +630,10 @@ opacity: 0.7;
 	margin-bottom: 25px;
 	float: left;
 	width: 27%;
-	background: #E14F4F;
+	background: #6C1B11;
 	color: #fff;
 	text-align: center;
-	font-family: Vidaloka !important;
+	font-family: Roboto-Thin !important;
 	font-weight: normal;
 	line-height: 110%;
 }
@@ -631,7 +641,7 @@ opacity: 0.7;
 	float: left;
 	width: 100%;
 	padding-bottom: 30px;
-	background: #E14F4F;
+	background: #6C1B11;
 }
 .tr_block_date .tr_day {
 	font-size: 54px;
@@ -649,7 +659,7 @@ opacity: 0.7;
 	line-height: 18px;
 	font-size: 28px;
 	text-align: center;
-	color: #fff;
+	color: #FFF;
 }
 .tr_block_date a:hover, .tr_block_date:hover {
 	color: #fff;
@@ -784,7 +794,7 @@ opacity: 0.7;
 	transition: all 0.25s ease-in-out;
 }
 .tr_recentimage .tr_overdefult {
-	background: rgba(225,79,79,0.75) !important;
+	background: rgba(108,27,17,0.75) !important;
 }
 .tr_common_slider:hover .tr_overdefult {
 	opacity: 1;
@@ -905,6 +915,7 @@ opacity: 0.7;
 	height: auto;
 	z-index: 0;
 	background-size: cover;
+    filter: grayscale(100%);
 }
 .tr_video_text {
 	width: 100%;
@@ -918,6 +929,7 @@ opacity: 0.7;
 	font-size: 50px;
 	color: #fff;
 	margin-bottom: 40px;
+    text-shadow: 1px 2px #6C1B11;
 }
 .tr_video_button a {
 	color: #fff !important;
@@ -962,7 +974,7 @@ opacity: 0.7;
 	float: left;
 	text-align: center;
 	width: 100%;
-	font-family: Vidaloka;
+	font-family: Roboto-Thin;
 }
 .tr_role {
 	display: inline-block;
@@ -1096,7 +1108,7 @@ line-height: 52px;
 	color: #fff !important;
 	font-size: 22px;
 	margin-bottom: 40px;
-	font-family: Vidaloka !important;
+	font-family: Roboto-Thin !important;
 	width: 100%;
 }
 #contacthead .head-title {
@@ -1135,7 +1147,7 @@ border-bottom: 4px solid #d13939;
 -ms-transition: all 0.25s ease-in-out;
 transition: all 0.25s ease-in-out;
 padding: 9px 58px;
-font-family: Vidaloka !important;
+font-family: Roboto-Thin !important;
 }
 .tr_btn:hover {
 	background: #d13939 !important;
@@ -1190,7 +1202,7 @@ font-family: Vidaloka !important;
 .tr_post_info h6 a {
 	color: #111;
 	font-size: 14px;
-	font-family: Droid Serif, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif !important;
+	font-family: Roboto-Thin !important;
 }
 .tr_post_info h6 a:hover {
 	text-decoration: none;
@@ -1236,7 +1248,7 @@ footer {
 	display: none;
 }
 .gototop {
-	background: #2f2f2f;
+	background: #6C1B11;
 	height: 50px;
 	width: 50px;
 	z-index: 9;
@@ -1431,7 +1443,7 @@ margin-top: 28px;
 	-ms-transition: all 0.25s ease-in-out;
 	transition: all 0.25s ease-in-out;
 	font-weight: normal;
-	font-family: Droid Serif, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif !important;
+	font-family: Roboto-Thin !important;
 }
  .tr_recent_posts_section .tr-author-widget-title h6 a:hover{
 	color: #E14F4F;
@@ -1979,7 +1991,7 @@ width: 100%;
 	background: #E14F4F;
 	color: #fff;
 	text-align: center;
-	font-family: Vidaloka !important;
+	font-family: Roboto-Thin !important;
 	font-weight: normal;
 	line-height: 110%;
 	left: 60%;
@@ -2289,7 +2301,7 @@ min-width: 186px;
  .nav > li > a{
 padding: 2px 0px 2px 34px !important;
 font-size: 14px;
-font-family: Vidaloka !important;
+font-family: Roboto-Thin !important;
 text-align: left;
 }
  .slider-title {
@@ -2453,7 +2465,7 @@ margin: 0 auto;
  .nav > li > a{
 	padding: 2px 0px 2px 34px !important;
 	font-size: 14px;
-	font-family: Vidaloka !important;
+	font-family: Roboto-Thin !important;
 	text-align: left;
 }
  .slider-title {
@@ -2641,7 +2653,7 @@ ul.tr_filter_title li{
  .nav > li > a{
 	padding: 2px 0px 2px 34px !important;
 	font-size: 14px;
-	font-family: Vidaloka !important;
+	font-family: Roboto-Thin !important;
 	text-align: left;
 }
  .slider-title {
@@ -2827,7 +2839,7 @@ display: none !important;
  .nav > li > a{
 	padding: 2px 0px 2px 34px !important;
 	font-size: 14px;
-	font-family: Vidaloka !important;
+	font-family: Roboto-Thin !important;
 	text-align: left;
 }
 .tr_twitter, .tr_facebook, .tr_printrest, .tr_dribbble {
@@ -2879,7 +2891,7 @@ min-width: 186px;
  .nav > li > a{
 	padding: 2px 0px 2px 34px !important;
 	font-size: 14px;
-	font-family: Vidaloka !important;
+	font-family: Roboto-Thin !important;
 	text-align: left;
 }
  .slider-title {
