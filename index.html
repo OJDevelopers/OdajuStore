@@ -412,7 +412,7 @@
 </div>
 <!--news-End--> 
 <!--Portfolio-->
-<div class="tr_page_section" id="portfolio">
+<div class="tr_page_section" id="portfolio" ng-controller="CatalogoCtrl">
   <div class="container">
     <div class="space"></div>
     <div class="tr_head">
@@ -425,196 +425,26 @@
     </div>
     <div class="tr_new_slider_box">
       <ul class="tr_main_project_slider" id="news_slider">
-        <li>
-          <div class="tr_one_third tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Video in Portfolio</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"><a href="#" rel="tag">Audio,</a> <a href="#" rel="tag">Videos,</a> <a href="#" rel="tag">Photography</a> </div>
-                </div>
+          <li ng-repeat="Catalogo in CatalogoLucho">
+              <div class="{{Producto.clase}} tr_common_slider" ng-repeat="Producto in Catalogo.Productos">
+                  <div class="tr_recentimage">
+                      <div class="tr_overdefult">
+                          <div class="tr_recentdescription">
+                              <a href="#" title="Video in Portfolio">
+                                  <h3>{{Producto.Nombre}}</h3>
+                              </a>
+                              <div class="tr-home-portfolio-categories">{{Producto.Categoria}}</div>
+                              <div class="tr-home-portfolio-categories">{{Producto.Precio}}</div>
+                          </div>
+                      </div>
+                      <div class="tr_image"> <a href="#"> <img src="{{Producto.Imagen}}" alt=""> </a> </div>
+                  </div>
               </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x300" alt=""> </a> </div>
-            </div>
-          </div>
-          <div class="tr_one_third_mid tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Fashion Sale</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"><a href="#" rel="tag">Audio</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x600" alt=""> </a> </div>
-            </div>
-          </div>
-          <div class="tr_one_third_right tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Wedding Ceremony</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"><a href="#" rel="tag">Videos</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x300" alt=""> </a> </div>
-            </div>
-          </div>
-          <div class="tr_one_third_bottom tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Fashion Modeling</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"> <a href="#" rel="tag">Audio,</a> <a href="#" rel="tag">Photography</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x300" alt=""> </a> </div>
-            </div>
-          </div>
-          <div class="tr_one_third_btm_right tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Time to Model</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"> <a href="#" rel="tag">Videos</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x300" alt=""> </a> </div>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="tr_one_third tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Video in Portfolio</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"><a href="#" rel="tag">Audio,</a> <a href="#" rel="tag">Videos,</a> <a href="#" rel="tag">Photography</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x300" alt=""> </a> </div>
-            </div>
-          </div>
-          <div class="tr_one_third_mid tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Fashion Sale</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"><a href="#" rel="tag">Audio</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x600" alt=""> </a> </div>
-            </div>
-          </div>
-          <div class="tr_one_third_right tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Wedding Ceremony</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"><a href="#" rel="tag">Videos</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x300" alt=""> </a> </div>
-            </div>
-          </div>
-          <div class="tr_one_third_bottom tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Fashion Modeling</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"> <a href="#" rel="tag">Audio,</a> <a href="#" rel="tag">Photography</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x300" alt=""> </a> </div>
-            </div>
-          </div>
-          <div class="tr_one_third_btm_right tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Time to Model</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"> <a href="#" rel="tag">Videos</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x300" alt=""> </a> </div>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="tr_one_third tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Video in Portfolio</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"><a href="#" rel="tag">Audio,</a> <a href="#" rel="tag">Videos,</a> <a href="#" rel="tag">Photography</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x300" alt=""> </a> </div>
-            </div>
-          </div>
-          <div class="tr_one_third_mid tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Fashion Sale</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"><a href="#" rel="tag">Audio</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x600" alt=""> </a> </div>
-            </div>
-          </div>
-          <div class="tr_one_third_right tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Wedding Ceremony</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"><a href="#" rel="tag">Videos</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x300" alt=""> </a> </div>
-            </div>
-          </div>
-          <div class="tr_one_third_bottom tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Fashion Modeling</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"> <a href="#" rel="tag">Audio,</a> <a href="#" rel="tag">Photography</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x300" alt=""> </a> </div>
-            </div>
-          </div>
-          <div class="tr_one_third_btm_right tr_common_slider">
-            <div class="tr_recentimage">
-              <div class="tr_overdefult">
-                <div class="tr_recentdescription"> <a href="#" title="Video in Portfolio">
-                  <h3>Time to Model</h3>
-                  </a>
-                  <div class="tr-home-portfolio-categories"> <a href="#" rel="tag">Videos</a> </div>
-                </div>
-              </div>
-              <div class="tr_image"> <a href="#"> <img src="http://placehold.it/393x300" alt=""> </a> </div>
-            </div>
-          </div>
-        </li>
+          </li>
       </ul>
     </div>
   </div>
-  <div class="tr_tabs_slide_section">
+  <!--<div class="tr_tabs_slide_section">
     <ul class="tr_tab_slider">
       <li><img src="http://placehold.it/393x300" alt=""></li>
       <li><img src="http://placehold.it/393x300" alt=""></li>
@@ -628,7 +458,7 @@
       <li><img src="http://placehold.it/393x300" alt=""></li>
       <li><img src="http://placehold.it/393x300" alt=""></li>
     </ul>
-  </div>
+  </div>-->
 </div>
 
 <!--Article Section Start-->
@@ -680,8 +510,8 @@
        <source src="mediasource:https://www.youtube.com/53b6e083-f50e-4b68-8cc2-0e0283abb087" type="video/mp4">
     </video>-->
     <div class="tr_video_text">
-      <h1><span>WE OFFER PROFESSIONAL PHOTOSHOOTINGS</span></h1>
-      <div class="tr_video_button"><a href="#">Mira nuestro catálogo</a></div>
+      <h1><span>SIEMPRE A LA MODA</span></h1>
+      <div class="tr_video_button"><a href="#portfolio">Mira nuestro catálogo</a></div>
     </div>
   </div>
 </div>

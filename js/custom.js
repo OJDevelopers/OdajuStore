@@ -167,14 +167,7 @@ function scrollToID(e, t) {
     });
 	// mobile nav toggle end
     var e = window.innerHeight;
-    jQuery("#news_slider").bxSlider({
-        controls: true,
-        displaySlideQty: 1,
-        speed: 1e3,
-        touchEnabled: false,
-        easing: "easeInOutQuint",
-        pager: false
-    });
+    
     jQuery(".tr_tab_slider").bxSlider({
         minSlides: 3,
         maxSlides: 3,

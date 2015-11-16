@@ -22,10 +22,10 @@
         });
     };
 
-    Result.GetVideos = function (CallBack, onError) {
+    Result.GetCatalogo = function (CallBack, onError) {
         $http.get("../../Data/odaju.json")
 		.success(function (data, status, headers, config) {
-		    CallBack(data.RecursosJeloz.Multimedia.Videos);
+		    CallBack(data.Catalogo);
 		})
         .error(function (data, status, headers, config) {
             onError(data);
