@@ -139,6 +139,13 @@
       "Imagen": "Catalogo/bolso11.jpg",
       "Nombre": "Bolso 10",
       "Precio": "$95,000"
+    },
+    {
+      "Categoria": "Bolsos",
+      "Descripcion": "",
+      "Imagen": "Catalogo/bolso12.jpg",
+      "Nombre": "Bolso 11",
+      "Precio": "$80,000"
     }
   ],
   "Equipo": [
