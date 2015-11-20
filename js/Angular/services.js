@@ -32,10 +32,10 @@
         });
     };
 
-    Result.GetWallPapers = function (CallBack, onError) {
+    Result.GetTestimonios = function (CallBack, onError) {
         $http.get("../../Data/odaju.json")
 		.success(function (data, status, headers, config) {
-		    CallBack(data.RecursosJeloz.WallPapers);
+		    CallBack(data.Testimonios);
 		})
         .error(function (data, status, headers, config) {
             onError(data);

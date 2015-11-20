@@ -101,14 +101,17 @@ angular.module("OdajuApp", ["OdajuApp.Services"])
 
         $timeout(function () {
             var e = window.innerHeight;
+
             jQuery("#news_slider").bxSlider({
                 controls: true,
                 displaySlideQty: 1,
                 speed: 1e3,
-                touchEnabled: true,
+                touchEnabled: false,
                 easing: "easeInOutQuint",
                 pager: false
             });
+
+
         }, 0);
     };
 
@@ -117,4 +120,58 @@ angular.module("OdajuApp", ["OdajuApp.Services"])
     }
 
     OdajuService.GetCatalogo(CallBackR, onErrorR);
+})
+
+.controller("CatalogoCtrl", function ($scope, OdajuService, $timeout) {
+    var CallBackR = function (Data) {
+        var j = OrganizarCatalogo(Data);
+        $scope.CatalogoLucho = j;
+
+        $timeout(function () {
+            var e = window.innerHeight;
+
+            jQuery("#news_slider").bxSlider({
+                controls: true,
+                displaySlideQty: 1,
+                speed: 1e3,
+                touchEnabled: false,
+                easing: "easeInOutQuint",
+                pager: false
+            });
+
+
+        }, 0);
+    };
+
+    var onErrorR = function (Data) {
+        alert(JSON.stringify(Data));
+    }
+
+    OdajuService.GetCatalogo(CallBackR, onErrorR);
+})
+.controller("TestimoniosCtrl", function ($scope, OdajuService, $timeout) {
+    var CallBackR = function (Data) {
+        $scope.Testimonios = Data;
+
+        $timeout(function () {
+            var e = window.innerHeight;
+
+            jQuery("#news_slider").bxSlider({
+                controls: true,
+                displaySlideQty: 1,
+                speed: 1e3,
+                touchEnabled: false,
+                easing: "easeInOutQuint",
+                pager: false
+            });
+
+
+        }, 0);
+    };
+
+    var onErrorR = function (Data) {
+        alert(JSON.stringify(Data));
+    }
+
+    OdajuService.GetTestimonios(CallBackR, onErrorR);
 })

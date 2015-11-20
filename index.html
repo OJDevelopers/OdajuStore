@@ -520,7 +520,7 @@
 
 <!--Article Section finish--> 
     <!--Quotes Section Start-->
-    <div class="tr_page_section" id="quotes">
+    <div class="tr_page_section" id="quotes" ng-controller="TestimoniosCtrl">
         <div class="space"></div>
         <div class="container">
             <div class="tr_head">
@@ -534,22 +534,13 @@
                     <a class="left carousel-control" href="#tr_testimonial" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#tr_testimonial" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
                     <!--Wrapper for slides-->
                     <div class="carousel-inner">
-                        <div class="item active">
+                        <div class="item" ng-class="($index == 0)?'active':''" ng-repeat="test in Testimonios">
                             <div class="tr-article-title">
                                 <div class="tr_border"></div>
-                                <div class="tr_quote_author"><span class="quote-author">HONORE DE BALZAC</span></div>
+                                <div class="tr_quote_author"><span class="quote-author">{{test.Nombre}}</span></div>
                                 <div class="tr-author-text">
-                                    <p><i class="fa fa-quote-left"></i> It is only in the act of nursing that a woman realizes her motherhood in visible and tangible fashion; it is a joy of every moment.<i class="fa fa-quote-right"></i> </p>
+                                    <p><i class="fa fa-quote-left"></i> {{test.Comentario}}<i class="fa fa-quote-right"></i> </p>
                                     <div class="quote-after"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="tr-article-title">
-                                <div class="tr_border"></div>
-                                <div class="tr_quote_author"><span class="quote-author">COCO CHANEL</span></div>
-                                <div class="tr-author-text">
-                                    <p><i class="fa fa-quote-left"></i>Fashion is not something that exists in dresses only. Fashion is in the sky, in the street, fashion has to do with ideas, the way we live, what is happening. <i class="fa fa-quote-right"></i></p>
                                 </div>
                             </div>
                         </div>
