@@ -1103,10 +1103,6 @@ line-height: 52px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 80px;
-	/*! filter: grayscale(100%); */
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	-ms-filter: grayscale(100%);
 	color: #C9341F !important;
 }
 .tr-contact-info label{color:#6C1B11;font-weight: bold;}
