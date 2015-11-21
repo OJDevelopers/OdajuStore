@@ -921,10 +921,16 @@ opacity: 0.7;
 	-moz-filter: grayscale(100%);
 	-ms-filter: grayscale(100%);
 	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
 }
 
 #bgvid:hover {
     filter: grayscale(0%);
+		-webkit-filter: grayscale(0%);
+	  -moz-filter: grayscale(0%);
+	  -ms-filter: grayscale(0%);
 }
 
 .tr_video_text {
