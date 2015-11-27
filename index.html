@@ -9,6 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Odaju Store</title>
 <!--stylesheet css file start-->
+<link href="lib/angular-carousel/angular-carousel.css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <!--stylesheet css file end-->
 <!-- favicon links -->
@@ -156,7 +157,7 @@
     </div>
     <div class="tr_social_icon col-lg-12">
       <ul class="tr_head_center">
-        <li ng-show="Red.Pintar" ng-repeat="Red in About.Redes"><a  href="{{Red.Link}}" title="{{Red.Nombre}}"> <i class="fa" ng-class="Red.Icon"></i></a></li>
+        <li ng-show="Red.Pintar" ng-repeat="Red in About.Redes"><a  href="{{Red.Link}}" title="{{Red.Nombre}}" target="_blank"> <i class="fa" ng-class="Red.Icon"></i></a></li>
       </ul>
     </div>
   </div>
@@ -424,12 +425,12 @@
       <!--<p>Mira nuestros <span class="tr_color">Fashion</span> projects to see what we can do</p>-->
     </div>
     <div class="tr_new_slider_box">
-      <ul class="tr_main_project_slider" id="news_slider">
-          <li ng-repeat="Catalogo in CatalogoLucho">
-              <div class="{{Producto.clase}} tr_common_slider" ng-repeat="Producto in Catalogo.Productos">
-                  <div class="tr_recentimage">
+      <ul rn-carousel class="tr_main_project_slider" style="height: 570px; display: block;width: 100%;" rn-carousel-transition="hexagon" rn-carousel-buffered>
+          <li ng-repeat="Producto in CatalogoLucho">
+              <div class="tr_one_third tr_common_slider" >
+                  <div class="tr_recentimage" style="height: 100%;">
                       <div class="tr_overdefult">
-                          <div class="tr_recentdescription">
+                          <div class="tr_recentdescription MarginInfoCata">
                               <a href="#" title="Video in Portfolio">
                                   <h3>{{Producto.Nombre}}</h3>
                               </a>
@@ -442,6 +443,8 @@
               </div>
           </li>
       </ul>
+      
+      <a href="#">Ver Todo el Catálogo</a>
     </div>
   </div>
   <!--<div class="tr_tabs_slide_section">
@@ -726,8 +729,11 @@
 <script src="js/plugins/revolution/js/jquery.themepunch.tools.min.js" type="text/javascript" charset="utf-8"></script> 
 <script src="js/custom.js" type="text/javascript"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-    <script src="js/Angular/services.js"></script>
-    <script src="js/Angular/controllers.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-touch.min.js"></script>
+<script src="lib/angular-carousel/angular-carousel.js"></script>
+<script src="js/Angular/services.js"></script>
+<script src="js/Angular/controllers.js"></script>
+
 <!--Scripts End--> 
 <!--Body End-->
 </body>

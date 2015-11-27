@@ -56,7 +56,7 @@
 }
 
 
-angular.module("OdajuApp", ["OdajuApp.Services"])
+angular.module("OdajuApp", ["OdajuApp.Services", "angular-carousel"])
 
 .controller("AboutCtrl", function ($scope, OdajuService) {
     var CallBackR = function (Data) {
@@ -96,8 +96,8 @@ angular.module("OdajuApp", ["OdajuApp.Services"])
 
 .controller("CatalogoCtrl", function ($scope, OdajuService,$timeout) {
     var CallBackR = function (Data) {
-        var j = OrganizarCatalogo(Data);
-        $scope.CatalogoLucho = j;
+        //var j = OrganizarCatalogo(Data);
+        $scope.CatalogoLucho = Data;
 
         $timeout(function () {
             var e = window.innerHeight;
@@ -124,8 +124,8 @@ angular.module("OdajuApp", ["OdajuApp.Services"])
 
 .controller("CatalogoCtrl", function ($scope, OdajuService, $timeout) {
     var CallBackR = function (Data) {
-        var j = OrganizarCatalogo(Data);
-        $scope.CatalogoLucho = j;
+        //var j = OrganizarCatalogo(Data);
+        $scope.CatalogoLucho = Data;
 
         $timeout(function () {
             var e = window.innerHeight;
