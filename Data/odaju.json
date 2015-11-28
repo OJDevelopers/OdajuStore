@@ -40,7 +40,7 @@
       },
       {
         "Icon": "fa-envelope",
-        "Link": "mailto://comercial.odaju@outlook.com",
+        "Link": "mailto:comercial.odaju@outlook.com",
         "Nombre": "Mail",
         "Orden": 8,
         "Pintar": true
@@ -70,20 +70,6 @@
       "Nombre": "Bolso ",
       "Precio": "$96,000"
     },
-    // {
-    //   "Categoria": "Bolsos",
-    //   "Descripcion": "",
-    //   "Imagen": "Catalogo/bolso1.jpg",
-    //   "Nombre": "Bolso 1",
-    //   "Precio": "$96,000"
-    // },
-    // {
-    //   "Categoria": "Bolsos",
-    //   "Descripcion": "",
-    //   "Imagen": "Catalogo/bolso2.jpg",
-    //   "Nombre": "Bolso 2",
-    //   "Precio": "$95,000"
-    // },
     {
       "Categoria": "Bolsos",
       "Descripcion": "",
