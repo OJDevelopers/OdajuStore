@@ -70,88 +70,88 @@
       "Nombre": "Bolso ",
       "Precio": "$96,000"
     },
-    {
-      "Categoria": "Bolsos",
-      "Descripcion": "",
-      "Imagen": "Catalogo/bolso1.jpg",
-      "Nombre": "Bolso 1",
-      "Precio": "$96,000"
-    },
-    {
-      "Categoria": "Bolsos",
-      "Descripcion": "",
-      "Imagen": "Catalogo/bolso2.jpg",
-      "Nombre": "Bolso 2",
-      "Precio": "$95,000"
-    },
+    // {
+    //   "Categoria": "Bolsos",
+    //   "Descripcion": "",
+    //   "Imagen": "Catalogo/bolso1.jpg",
+    //   "Nombre": "Bolso 1",
+    //   "Precio": "$96,000"
+    // },
+    // {
+    //   "Categoria": "Bolsos",
+    //   "Descripcion": "",
+    //   "Imagen": "Catalogo/bolso2.jpg",
+    //   "Nombre": "Bolso 2",
+    //   "Precio": "$95,000"
+    // },
     {
       "Categoria": "Bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso3.jpg",
-      "Nombre": "Bolso 3",
+      "Nombre": "Bolso 1",
       "Precio": "$85,000"
     },
     {
       "Categoria": "Bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso5.jpg",
-      "Nombre": "Bolso 4",
+      "Nombre": "Bolso 2",
       "Precio": "$85,000"
     },
     {
       "Categoria": "Bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso6.jpg",
-      "Nombre": "Bolso 5",
+      "Nombre": "Bolso 3",
       "Precio": "$96,000"
     },
     {
       "Categoria": "Bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso7.jpg",
-      "Nombre": "Bolso 6",
+      "Nombre": "Bolso 4",
       "Precio": "$96,000"
     },
     {
       "Categoria": "Bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso8.jpg",
-      "Nombre": "Bolso 7",
+      "Nombre": "Bolso 5",
       "Precio": "$95,000"
     },
     {
       "Categoria": "Bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso9.jpg",
-      "Nombre": "Bolso 8",
+      "Nombre": "Bolso 6",
       "Precio": "$96,000"
     },
     {
       "Categoria": "Bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso10.jpg",
-      "Nombre": "Bolso 9",
+      "Nombre": "Bolso 7",
       "Precio": "$96,000"
     },
     {
       "Categoria": "Bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso11.jpg",
-      "Nombre": "Bolso 10",
+      "Nombre": "Bolso 8",
       "Precio": "$95,000"
     },
     {
       "Categoria": "Bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso12.jpg",
-      "Nombre": "Bolso 11",
+      "Nombre": "Bolso 9",
       "Precio": "$80,000"
     },
     {
       "Categoria": "Bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso13.jpg",
-      "Nombre": "Bolso 12",
+      "Nombre": "Bolso 10",
       "Precio": "$96,000"
     },
     {
