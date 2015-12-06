@@ -55,6 +55,39 @@
     return ObjetoFinal;
 }
 
+function OrganizarEquipo(AData) {
+    var divisor = 3;
+    var CantidadLi = Math.ceil(AData.length / divisor);
+
+    var ObjetoFinal = [];
+    var guia = 0;
+    var posicionObj = 0;
+
+    for (var i = 0; i < CantidadLi; i++) {
+        var Obj = { "Equipo": [] };
+        guia += divisor;
+        var guia2 = 0;
+        for (var j = posicionObj; j < guia; j++) {
+            var r = AData[j]
+
+            if (r == undefined) {
+                //Obj.Productos.push("" + j + "");
+            }
+            else {
+
+                Obj.Equipo.push(r);
+            }
+
+            posicionObj = j + 1;
+            guia2++;
+        }
+
+        ObjetoFinal.push(Obj);
+    }
+
+    return ObjetoFinal;
+}
+
 
 angular.module("OdajuApp", ["OdajuApp.Services", "angular-carousel"])
 
@@ -82,9 +115,25 @@ angular.module("OdajuApp", ["OdajuApp.Services", "angular-carousel"])
 
     OdajuService.GetAbout(CallBackR, onErrorR);
 })
-.controller("NoticiasCtrl", function ($scope, OdajuService) {
+.controller("NoticiasCtrl", function ($scope, OdajuService, $timeout) {
     var CallBackR = function (Data) {
+        
         $scope.Noticias = Data;
+
+        $.each($scope.Noticias, function (index, item) {
+            var Fecha = FormatearFecha(item.Fecha)
+            item.Fecha = Fecha;
+        })
+
+        $timeout(function () {
+            jQuery(".tr_fashion_slider").bxSlider({
+                minSlides: 2,
+                maxSlides: 2,
+                slideWidth: 550,
+                slideMargin: 20,
+                pager: false
+            });
+        },0)
     };
 
     var onErrorR = function (Data) {
@@ -122,32 +171,18 @@ angular.module("OdajuApp", ["OdajuApp.Services", "angular-carousel"])
     OdajuService.GetCatalogo(CallBackR, onErrorR);
 })
 
-.controller("CatalogoCtrl", function ($scope, OdajuService, $timeout) {
+.controller("EquipoCtrl", function ($scope, OdajuService, $timeout) {
     var CallBackR = function (Data) {
         //var j = OrganizarCatalogo(Data);
-        $scope.CatalogoLucho = Data;
+        $scope.Equipo = OrganizarEquipo(Data);
 
-        $timeout(function () {
-            var e = window.innerHeight;
-
-            jQuery("#news_slider").bxSlider({
-                controls: true,
-                displaySlideQty: 1,
-                speed: 1e3,
-                touchEnabled: false,
-                easing: "easeInOutQuint",
-                pager: false
-            });
-
-
-        }, 0);
     };
 
     var onErrorR = function (Data) {
         alert(JSON.stringify(Data));
     }
 
-    OdajuService.GetCatalogo(CallBackR, onErrorR);
+    OdajuService.GetEquipo(CallBackR, onErrorR);
 })
 .controller("TestimoniosCtrl", function ($scope, OdajuService, $timeout) {
     var CallBackR = function (Data) {

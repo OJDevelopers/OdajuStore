@@ -283,14 +283,66 @@
   ],
   "Equipo": [
     {
-      "Nombre": "",
-      "Cargo": "",
-      "Imagen": "",
-      "Descripcion": "",
+      "Nombre": "Carolina Sánchez",
+      "Cargo": "HANA-DESIGN",
+      "Imagen": "Equipo/Hana.jpg",
+      "Descripcion": "Moda Femenina",
+      "Redes": {
+        "Facebook": "https://www.facebook.com/HANADESIGNCOL/",
+        "Twitter": "",
+        "Instagram": "",
+        "Pinterest": "",
+        "Dribble": ""
+      }
+    },
+    {
+      "Nombre": "Danny Tejada",
+      "Cargo": "BY DANNY TEJADA",
+      "Imagen": "Equipo/Danny.jpg",
+      "Descripcion": "Moda Masculina",
       "Redes": {
         "Facebook": "",
         "Twitter": "",
         "Instagram": "",
+        "Pinterest": "",
+        "Dribble": ""
+      }
+    },
+    {
+      "Nombre": "Allan Varela",
+      "Cargo": "ALANLAC",
+      "Imagen": "Equipo/alanlac.jpg",
+      "Descripcion": "Moda Masculina",
+      "Redes": {
+        "Facebook": "https://www.facebook.com/Alanlac-784793341626219/",
+        "Twitter": "",
+        "Instagram": "",
+        "Pinterest": "",
+        "Dribble": ""
+      }
+    },
+    {
+      "Nombre": "Carolina Varela paternina",
+      "Cargo": "CAROLINA VARELA ACCESORIOS",
+      "Imagen": "Equipo/carolinavarela.jpg",
+      "Descripcion": "Accesorios Femenina",
+      "Redes": {
+        "Facebook": "https://www.facebook.com/accesorioscarovarela/",
+        "Twitter": "",
+        "Instagram": "",
+        "Pinterest": "",
+        "Dribble": ""
+      }
+    },
+    {
+      "Nombre": "ALOBY",
+      "Cargo": "ALOBY",
+      "Imagen": "Equipo/Aloby.jpg",
+      "Descripcion": "Accesorios Femeninos",
+      "Redes": {
+        "Facebook": "https://www.facebook.com/aloby",
+        "Twitter": "",
+        "Instagram": "https://www.instagram.com/alobybolsos/",
         "Pinterest": "",
         "Dribble": ""
       }
@@ -305,20 +357,44 @@
   },
   "Noticias": [
     {
-      "Autor": "Odaju Store",
-      "Contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Fecha": "15/11/2015",
-      "Imagen": "../images/bannerDefault.png",
-      "Prev": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Titulo": "Noticia de Prueba 1"
+      "Autor": "VOGUE ESPAÑA",
+      "Contenido": "",
+      "Externa": true,
+      "Fecha": "11/20/2015",
+      "Imagen": "http://cdn.vogue.es/uploads/images/thumbs/201547/vogue_news_521468934_620x.jpg",
+      "Link": "http://www.vogue.es/moda/news/articulos/nueva-aliada-feminismo-actriz-chloe-moretz-pelicula-malditos-vecinos-2/24123",
+      "Prev": "El feminismo. Ese término que, en su sentido estricto, busca la equidad entre géneros en los diferentes ámbitos vitales. Un término reconvertido por la era digital y que parece atraer –como la luz a las polillas– al mundo celeb más que cualquier otra cosa.",
+      "Titulo": "El feminismo 2.0 tiene una nueva aliada. Bienvenida, Chloë Moretz"
     },
     {
-      "Autor": "Odaju Store",
-      "Contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Fecha": "15/11/2015",
-      "Imagen": "../images/bannerDefault.png",
-      "Prev": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Titulo": "Noticia de Prueba 2"
+      "Autor": "VOGUE ESPAÑA",
+      "Contenido": "",
+      "Externa": true,
+      "Fecha": "11/20/2015",
+      "Imagen": "http://cdn.vogue.es/uploads/images/thumbs/201547/vogue_news_796907029_620x.jpg",
+      "Link": "http://www.vogue.es/moda/news/articulos/candice-swanepoel-elsa-hosk-enfretamiento-angeles-victorias-secret/24115",
+      "Prev": "Durante el último desfile de Victoria's Secret, hubo una cosa que nos quedó clara: los nuevos ángeles y los ángeles más veteranos pueden convivir en perfecta armonía. ",
+      "Titulo": "Alguien quiere enfrentar a dos icónicos ángeles de Victoria's Secret..."
+    },
+    {
+      "Autor": "VOGUE ESPAÑA",
+      "Contenido": "",
+      "Externa": true,
+      "Fecha": "11/20/2015",
+      "Imagen": "http://cdn.vogue.es/uploads/images/thumbs/201547/rania_y_letizia_8189_620x.jpg",
+      "Link": "http://www.vogue.es/moda/news/articulos/letizia-ortiz-y-rania-de-jordania-comparacion-de-estilo-moda-belleza/24118",
+      "Prev": "rácticamente desde ese 1 de noviembre de 2003 en el que la Casa Real anunciaba el compromiso del Príncipe Felipe –ahora Rey– con Letizia Ortiz, las comparaciones de la asturiana con Rania de Jordania siempre se han sucedido. ",
+      "Titulo": "¿Qué tienen en común (y qué no) la Reina Letizia y Rania de Jordania?"
+    },
+    {
+      "Autor": "Sistema de Información para la Artesanía Siart ",
+      "Contenido": "",
+      "Externa": true,
+      "Fecha": "11/18/2015",
+      "Imagen": "http://www.artesaniasdecolombia.com.co/Documentos/Contenido/18424_expoartesanias-corferias-artesanias-colombia-2015.jpg",
+      "Link": "http://www.artesaniasdecolombia.com.co/PortalAC/Noticia/expoartesanias-2015-25-anos-de-tradicion_6693",
+      "Prev": "Expoartesanías, la feria artesanal más importante de Colombia y Latinoamérica, se convertirá en el año 2015 en un espacio de celebración para el sector artesanal, pues en esta ocasión la feria llega a su versión número 25 para inspirarnos con la magia de volver a las raíces artesanales de nuestro país.",
+      "Titulo": "Expoartesanías 2015: 25 años de tradición"
     }
   ],
   "Slider1": [

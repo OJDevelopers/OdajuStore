@@ -176,13 +176,6 @@ function scrollToID(e, t) {
         slideMargin: 0,
         pager: false
     });
-    jQuery(".tr_fashion_slider").bxSlider({
-        minSlides: 2,
-        maxSlides: 2,
-        slideWidth: 550,
-        slideMargin: 20,
-        pager: false
-    });
     jQuery(".tr_single_slider").bxSlider({
         controls: false,
         auto: true,

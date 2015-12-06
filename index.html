@@ -5,523 +5,493 @@
 <!--<![endif]-->
 <!-- Header Start -->
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Odaju Store</title>
-<!--stylesheet css file start-->
-<link href="lib/angular-carousel/angular-carousel.css" rel="stylesheet" />
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--stylesheet css file end-->
-<!-- favicon links -->
-<link rel="shortcut icon" type="image/x-icon" href="favicon2.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odaju Store</title>
+    <!--stylesheet css file start-->
+    <link href="lib/angular-carousel/angular-carousel.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!--stylesheet css file end-->
+    <!-- favicon links -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon2.png" />
 </head>
 <!-- Header End -->
 <!-- Body Start -->
 <body>
-<!--Pre loader start-->
-<!--<div id="preloader">
-  <div id="status"><img src="images/loading.gif" id="preloader_image" alt="loader"></div>
-</div>-->
-<!--pre loader end-->
-<div class="teresa_home"></div>
-<div id="home" class="tr_page_section" >
-  <!--Home Slider start-->
-  	<div class="tp-banner-container">
-		<div class="tp-banner" >
-			<ul>
-			<!-- SLIDE 1 -->
-	<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-thumb="http://placehold.it/360x240"  data-saveperformance="on">
-		<!-- MAIN IMAGE -->
-		<img src="images/dummy.png"  alt="slidebg1" data-lazyload="images/banner1.png" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-		<!-- LAYERS -->
-
-		<!-- LAYER NR. 1 -->
-		<div class="tp-caption lft customout rs-parallaxlevel-0"
-			data-x="450"
-			data-y="240" 
-			data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-			data-speed="700"
-			data-start="1550"
-			data-easing="Power3.easeInOut"
-			data-elementdelay="0.1"
-			data-endelementdelay="0.1"
-			style="z-index: 2;"><img src="images/dummy.png" alt="" data-lazyload="images/odaju3.png">
-		</div>
-		<!-- LAYER NR. 3 -->
-		<div class="tp-caption lft customout rs-parallaxlevel-0"
-			data-x="480"
-			data-y="380" 
-			data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-			data-speed="700"
-			data-start="1100"
-			data-easing="Power3.easeInOut"
-			data-elementdelay="0.1"
-			data-endelementdelay="0.1"
-			style="z-index: 3;width:230px"><img style="width:100%; height:100%;" src="images/dummy.png" alt="" data-lazyload="images/ornament-slideshow.png">
-		</div>
-		<!-- LAYER NR. 4 -->
-		<div class="tp-caption customout white_heavy_30 tp-resizeme rs-parallaxlevel-0"
-			data-x="480"
-			data-y="450" 
-			data-speed="500"
-			data-start="2250"
-			data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-			data-easing="Power3.easeInOut"
-			data-splitout="none"
-			data-elementdelay="0.1"
-			data-endelementdelay="0.1"
-			style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;color: #720516 !important;">BE YOURSELF
-		</div>
-	</li>
-<div class="tp-bannertimer"></div>	</div>
-</div>	
-  <!--Home Slider end-->
-</div>
-<div class="header">
-  <div class="container">
-    <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"><span class="tr_toggle_menu"><span class="glyphicon glyphicon-list"></span></span><span class="tr_toggle_text">MENU</span> <span class="sr-only">Toggle navigation</span> </button>
-      </div>
-      <!--navbar-header-->
-      <div id="main-nav" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#about" class="scroll-link" data-id="about">Nosotros</a> </li>
-          <li><a href="#news" class="scroll-link" data-id="news">Noticias</a></li>
-          <li><a href="#portfolio" class="scroll-link" data-id="portfolio">Catálogo</a></li>
-          <li><a href="#article" class="scroll-link" data-id="article">Blog</a></li>
-          <li><a href="#quotes" class="scroll-link" data-id="quotes">Testimonios</a></li>
-          <li><a href="#team" class="scroll-link" data-id="team">Conocenos</a></li>
-          <li><a href="#contact" class="scroll-link" data-id="contact">Contacto</a></li>
-        </ul>
-      </div>
-      <!--navbar-collapse--> 
-    </nav>
-    <!--navbar--> 
-  </div>
-  <!--container--> 
-</div>
-<!--header--> 
-
-<!--second menu start-->
-<div class="pagenav fixedmenu">
-  <div class="holder-fixedmenu">
-    <div class="logo-fixedmenu"> <a href="#home" class="scroll-link active" data-id="home"><img src="images/odaju4.png" alt="Odaju Store"></a> </div>
-    <div class="menu-fixedmenu home">
-      <ul id="menu-home-page" class="menu">
-          <li><a href="#about" class="scroll-link" data-id="about">Nosotros</a> </li>
-          <li><a href="#news" class="scroll-link" data-id="news">Noticias</a></li>
-          <li><a href="#portfolio" class="scroll-link" data-id="portfolio">Catálogo</a></li>
-          <li><a href="#article" class="scroll-link" data-id="article">Blog</a></li>
-          <li><a href="#quotes" class="scroll-link" data-id="quotes">Testimonios</a></li>
-          <li><a href="#team" class="scroll-link" data-id="team">Conocenos</a></li>
-          <li><a href="#contact" class="scroll-link" data-id="contact">Contacto</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<!--second menu end-->
-
-<div class="tr_line"></div>
-
-<!--HOME FINISH--> 
-<!--About Start-->
-<div id="about" class="tr_page_section" ng-controller="AboutCtrl">
-  <div class="space"></div>
-  <div class="container">
-    <div class="tr_main_head">
-      <div class="tr_head_title push-down-10" data-scrollreveal="enter from the bottom over 1s">
-        <h2>ODAJU STORE</h2>
-      </div>
-      <h4 class="text-uppercase push-down-40 tr_color">Be Yourself</h4>
-    </div>
-    <div class="text-center">
-      <p>{{About.QuienesSomos}}</p>
-    </div>
-    <div class="col-lg-6">
-        <div class="tr_head_title push-down-10 tr_head_center" data-scrollreveal="enter from the bottom over 1s">
-            <h2>Misión</h2>
-        </div>
-        <div class="text-justify">
-            <p>{{About.Mision}}</p>
-        </div>
-    </div>
-    <div class="col-lg-6">
-        <div class="tr_head_title push-down-10 tr_head_center" data-scrollreveal="enter from the bottom over 1s">
-            <h2>Visión</h2>
-        </div>
-        <div class="text-justify">
-            <p>{{About.Vision}}</p>
-        </div>
-    </div>
-    <div class="tr_social_icon col-lg-12">
-      <ul class="tr_head_center">
-        <li ng-show="Red.Pintar" ng-repeat="Red in About.Redes"><a  href="{{Red.Link}}" title="{{Red.Nombre}}" target="_blank"> <i class="fa" ng-class="Red.Icon"></i></a></li>
-      </ul>
-    </div>
-  </div>
-  <!--Gallery Slider-->
-  <div class="tr_gallery_slider">
-    <section id="photostack-1" class="photostack photostack-start">
-      <div>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Fashion Photography</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt="img02"/></a>
-          <figcaption>
-            <h2 class="photostack-title">Happy Days</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"> <img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Beautywood</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Heaven of time</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Speed Racer</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Forever this</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Lovely Green</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Wonderful</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Love Addict</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Friendship</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">White Nights</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Serendipity</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Pure Soul</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Winds of Peace</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Shades of blue</h2>
-          </figcaption>
-        </figure>
-        <figure> <a href="#" class="photostack-img"><img src="../images/default.png" alt=""/></a>
-          <figcaption>
-            <h2 class="photostack-title">Lightness</h2>
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-  </div>
-  <!--Gallery Slider End--> 
-</div>
-<!--About Finish--> 
-<!--Recent News Start-->
-<div id="news" class="tr_page_section" ng-controller="NoticiasCtrl">
-  <div class="container">
-    <div class="tr_head">
-      <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
-        <h3>Noticias</h3>
-      </div>
-    </div>
-    <div class="tr_news_title_small" >
-      <p>Entérate de todo lo último que pasa en <span class="tr_color">Odaju Store</span> de una manéra rápida y confiable.</p>
-    </div>
-    <div class="tr_news_slider">
-      <div> 
-        <!-- Wrapper for slides -->
-        <ul class="tr_fashion_slider">
-          <li>
-            <div class="tr_thumbnail">
-              <div class="tr_left_img"> <a href=""> <img class="tr_opacity img-responsive" src="http://placehold.it/570x350" alt="Fashion Photography"></a></div>
-              <div class="tr_left_block">
-                <div class="tr_block_date"> <a href="comment.html">
-                  <div class="tr_day">23</div>
-                  <div class="tr_date_line"></div>
-                  <div class="tr_month"> Mar</div>
-                  <div class="tr_year"> 2013</div>
-                  </a></div>
-                <div class="tr_blog_description"><a href="comment.html">Read more</a> </div>
-              </div>
-              <div class="tr_right_block">
-                <div class="tr_author">Written by <a href="author.html" title="Posts by Teresa" rel="">Teresa</a></div>
-                <h5 class="text-uppercase"> <a href="comment.html">Fashion Photography</a></h5>
-                <div class="post-description">Lorem ipsum dolor sit amet, consecteter&nbsp;ad&nbsp;elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud  ...</div>
-              </div>
+    <!--Pre loader start-->
+    <!--<div id="preloader">
+      <div id="status"><img src="images/loading.gif" id="preloader_image" alt="loader"></div>
+    </div>-->
+    <!--pre loader end-->
+    <div class="teresa_home"></div>
+    <div id="home" class="tr_page_section">
+        <!--Home Slider start-->
+        <div class="tp-banner-container">
+            <div class="tp-banner">
+                <ul>
+                    <!-- SLIDE 1 -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-thumb="http://placehold.it/360x240" data-saveperformance="on">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/dummy.png" alt="slidebg1" data-lazyload="images/banner1.png" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption lft customout rs-parallaxlevel-0"
+                             data-x="450"
+                             data-y="240"
+                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                             data-speed="700"
+                             data-start="1550"
+                             data-easing="Power3.easeInOut"
+                             data-elementdelay="0.1"
+                             data-endelementdelay="0.1"
+                             style="z-index: 2;">
+                            <img src="images/dummy.png" alt="" data-lazyload="images/odaju3.png">
+                        </div>
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption lft customout rs-parallaxlevel-0"
+                             data-x="480"
+                             data-y="380"
+                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                             data-speed="700"
+                             data-start="1100"
+                             data-easing="Power3.easeInOut"
+                             data-elementdelay="0.1"
+                             data-endelementdelay="0.1"
+                             style="z-index: 3;width:230px">
+                            <img style="width:100%; height:100%;" src="images/dummy.png" alt="" data-lazyload="images/ornament-slideshow.png">
+                        </div>
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption customout white_heavy_30 tp-resizeme rs-parallaxlevel-0"
+                             data-x="480"
+                             data-y="450"
+                             data-speed="500"
+                             data-start="2250"
+                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                             data-easing="Power3.easeInOut"
+                             data-splitout="none"
+                             data-elementdelay="0.1"
+                             data-endelementdelay="0.1"
+                             style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;color: #720516 !important;">
+                            BE YOURSELF
+                        </div>
+                    </li>
+                    <div class="tp-bannertimer"></div>
             </div>
-          </li>
-          <li>
-            <div class="tr_thumbnail">
-              <div class="tr_left_img"> <a href="author.html"> <img class="tr_opacity img-responsive" src="http://placehold.it/570x350" alt="Fashion Photography" ></a></div>
-              <div class="tr_left_block">
-                <div class="tr_block_date"> <a href="comment.html">
-                  <div class="tr_day">23</div>
-                  <div class="tr_date_line"></div>
-                  <div class="tr_month"> Mar</div>
-                  <div class="tr_year"> 2013</div>
-                  </a></div>
-                <div class="tr_blog_description"><a href="comment.html">Read more</a> </div>
-              </div>
-              <div class="tr_right_block">
-                <div class="tr_author">Written by <a href="author.html" title="Posts by Teresa" rel="author">Teresa</a></div>
-                <h5 class="text-uppercase"> <a href="comment.html">Fashion Photography</a></h5>
-                <div class="post-description">Lorem ipsum dolor sit amet, consecteter&nbsp;ad&nbsp;elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud  ...</div>
-              </div>
-            </diV>
-          </li>
-      
-          <!--=====slid 2====-->
-          
-          <li>
-            <div class="tr_thumbnail">
-              <div class="tr_left_img"> <iframe src="https://www.youtube.com/embed/dFVt0OIbn-I?enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;controls=1&amp;"></iframe>
-				</div>
-              <div class="tr_left_block">
-                <div class="tr_block_date"> <a href="comment.html">
-                  <div class="tr_day">23</div>
-                  <div class="tr_date_line"></div>
-                  <div class="tr_month"> Mar</div>
-                  <div class="tr_year"> 2013</div>
-                  </a></div>
-                <div class="tr_blog_description"><a href="comment.html">Read more</a> </div>
-              </div>
-              <div class="tr_right_block">
-                <div class="tr_author">Written by <a href="author.html" title="Posts by Teresa" rel="">Teresa</a></div>
-                <h5 class="text-uppercase"> <a href="comment.html">This is a Fashion Video Post</a></h5>
-                <div class="post-description">Lorem ipsum dolor sit amet, consecteter&nbsp;ad&nbsp;elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud  ...</div>
-              </div>
+        </div>
+        <!--Home Slider end-->
+    </div>
+    <div class="header">
+        <div class="container">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"><span class="tr_toggle_menu"><span class="glyphicon glyphicon-list"></span></span><span class="tr_toggle_text">MENU</span> <span class="sr-only">Toggle navigation</span> </button>
+                </div>
+                <!--navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#about" class="scroll-link" data-id="about">Nosotros</a> </li>
+                        <li><a href="#news" class="scroll-link" data-id="news">Noticias</a></li>
+                        <li><a href="#portfolio" class="scroll-link" data-id="portfolio">Catálogo</a></li>
+                        <li><a href="#article" class="scroll-link" data-id="article">Blog</a></li>
+                        <li><a href="#quotes" class="scroll-link" data-id="quotes">Testimonios</a></li>
+                        <li><a href="#team" class="scroll-link" data-id="team">Conocenos</a></li>
+                        <li><a href="#contact" class="scroll-link" data-id="contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <!--navbar-collapse-->
+            </nav>
+            <!--navbar-->
+        </div>
+        <!--container-->
+    </div>
+    <!--header-->
+    <!--second menu start-->
+    <div class="pagenav fixedmenu">
+        <div class="holder-fixedmenu">
+            <div class="logo-fixedmenu"> <a href="#home" class="scroll-link active" data-id="home"><img src="images/odaju4.png" alt="Odaju Store"></a> </div>
+            <div class="menu-fixedmenu home">
+                <ul id="menu-home-page" class="menu">
+                    <li><a href="#about" class="scroll-link" data-id="about">Nosotros</a> </li>
+                    <li><a href="#news" class="scroll-link" data-id="news">Noticias</a></li>
+                    <li><a href="#portfolio" class="scroll-link" data-id="portfolio">Catálogo</a></li>
+                    <li><a href="#article" class="scroll-link" data-id="article">Blog</a></li>
+                    <li><a href="#quotes" class="scroll-link" data-id="quotes">Testimonios</a></li>
+                    <li><a href="#team" class="scroll-link" data-id="team">Conocenos</a></li>
+                    <li><a href="#contact" class="scroll-link" data-id="contact">Contacto</a></li>
+                </ul>
             </div>
-          </li>
-          <li>
-            <div class="tr_thumbnail">
-              <div class="tr_left_img"> <a href="author.html"> <img class="tr_opacity img-responsive" src="http://placehold.it/570x350" alt="Fashion Photography" ></a></div>
-              <div class="tr_left_block">
-                <div class="tr_block_date"> <a href="comment.html">
-                  <div class="tr_day">23</div>
-                  <div class="tr_date_line"></div>
-                  <div class="tr_month"> Mar</div>
-                  <div class="tr_year"> 2013</div>
-                  </a></div>
-                <div class="tr_blog_description"><a href="comment.html">Read more</a> </div>
-              </div>
-              <div class="tr_right_block">
-                <div class="tr_author">Written by <a href="author.html" title="Posts by Teresa" rel="author">Teresa</a></div>
-                <h5 class="text-uppercase"> <a href="comment.html">Fashionable Audio Song</a></h5>
-                <div class="post-description">Lorem ipsum dolor sit amet, consecteter&nbsp;ad&nbsp;elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud  ...</div>
-              </div>
-            </diV>
-            <div class="carousel-caption"> </div>
-          </li>
-        </ul>
-        
-        <!--Controls--> 
-        
-      </div>
-    </div>
-    
-    <!--Small Device Slider-->
-    
-    <div class="tr_rows">
-      <div class="tr_thumbnail">
-        <div class="tr_left_img"> <a href="author.html"> <img class="img-responsive tr_opacity" src="http://placehold.it/570x350" alt="Fashion Photography"></a></div>
-        <div class="tr_center text_center">
-          <div class="tr_left_block1">
-            <div class="tr_block_date"> <a href="comment.html">
-              <div class="tr_day">23</div>
-              <div class="tr_date_line"></div>
-              <div class="tr_month"> Mar</div>
-              <div class="tr_year"> 2013</div>
-              </a></div>
-          </div>
-        </diV>
-        <div class="tr_right_block1">
-          <div class="tr_author">Written by <a href="author.html" title="Posts by Teresa" rel="author">Teresa</a></div>
-          <h5 class="text-uppercase"> <a href="comment.html">Fashionable Audio Song</a></h5>
-          <div class="post-description">Lorem ipsum dolor sit amet, consecteter&nbsp;ad&nbsp;elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud  ...</div>
         </div>
-      </div>
-      <div class="tr_thumbnail">
-        <div class="tr_left_img"> <a href="author.html"> <img class="img-responsive tr_opacity" src="http://placehold.it/570x350" alt="Fashion Photography"></a></div>
-        <div class="tr_left_block1">
-          <div class="tr_block_date"> <a href="comment.html">
-            <div class="tr_day">23</div>
-            <div class="tr_date_line"></div>
-            <div class="tr_month"> Mar</div>
-            <div class="tr_year"> 2013</div>
-            </a></div>
-        </div>
-        <div class="tr_right_block1">
-          <div class="tr_author">Written by <a href="author.html" title="Posts by Teresa" rel="author">Teresa</a></div>
-          <h5 class="text-uppercase"> <a href="comment.html">Fashion Photography</a></h5>
-          <div class="post-description">Lorem ipsum dolor sit amet, consecteter&nbsp;ad&nbsp;elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud  ...</div>
-        </div>
-      </diV>
     </div>
-    <!--Small Device Sldier End--> 
-  </div>
-  <!--Fade_in_fade_out_slider-->
-  <div class="tr_fade_in_slider">
-    <ul class="tr_fashion_slider_box">
-      <li>
-        <div class="tr_fade_first"><span class="tr_first_text animated bounceInDown">Odaju Store</span><span class="tr_second_text animated  delay bounceInUp">Bazar Gitano 2015</span></div>
-      </li>
-      <li>
-        <div class="tr_fade_first animated bounceInUp">Visítanos en el Bazar Gitano </div>
-      </li>
-      <li>
-        <div class="tr_fade_first animated bounceInRight"><span class="tr_third_text animated delay bounceInRight">Centro Comercial Obelisco</span> Noviembre 27 - 28, 2015</div>
-      </li>
-    </ul>
-  </div>
-  
-  <!--Fade_in_fade_out_slider_END--> 
-</div>
-<!--news-End--> 
-<!--Portfolio-->
-<div class="tr_page_section" id="portfolio" ng-controller="CatalogoCtrl">
-  <div class="container">
-    <div class="space"></div>
-    <div class="tr_head">
-      <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
-        <h3>Catálogo</h3>
-      </div>
-    </div>
-    <div class="tr_news_title_small" >
-      <!--<p>Mira nuestros <span class="tr_color">Fashion</span> projects to see what we can do</p>-->
-    </div>
-    <div class="tr_new_slider_box">
-      <ul rn-carousel class="tr_main_project_slider" style="height: 570px; display: block;width: 100%;" rn-carousel-transition="hexagon" rn-carousel-buffered>
-          <li ng-repeat="Producto in CatalogoLucho">
-              <div class="tr_one_third tr_common_slider" >
-                  <div class="tr_recentimage" style="height: 100%;">
-                      <div class="tr_overdefult">
-                          <div class="tr_recentdescription MarginInfoCata">
-                              <a href="#" title="Video in Portfolio">
-                                  <h3>{{Producto.Nombre}}</h3>
-                              </a>
-                              <div class="tr-home-portfolio-categories">{{Producto.Categoria}}</div>
-                              <div class="tr-home-portfolio-categories">{{Producto.Precio}}</div>
-                          </div>
-                      </div>
-                      <div class="tr_image"> <a href="#"> <img src="{{Producto.Imagen}}" alt=""> </a> </div>
-                  </div>
-              </div>
-          </li>
-      </ul>
-      
-      <a href="#">Ver Todo el Catálogo</a>
-    </div>
-  </div>
-  <!--<div class="tr_tabs_slide_section">
-    <ul class="tr_tab_slider">
-      <li><img src="http://placehold.it/393x300" alt=""></li>
-      <li><img src="http://placehold.it/393x300" alt=""></li>
-      <li><img src="http://placehold.it/393x300" alt=""></li>
-      <li><img src="http://placehold.it/393x300" alt=""></li>
-      <li><img src="http://placehold.it/393x300" alt=""></li>
-      <li><img src="http://placehold.it/393x300" alt=""></li>
-      <li><img src="http://placehold.it/393x300" alt=""></li>
-      <li><img src="http://placehold.it/393x300" alt=""></li>
-      <li><img src="http://placehold.it/393x300" alt=""></li>
-      <li><img src="http://placehold.it/393x300" alt=""></li>
-      <li><img src="http://placehold.it/393x300" alt=""></li>
-    </ul>
-  </div>-->
-</div>
 
-<!--Article Section Start-->
-<div class="tr_page_section" id="article">
-  <div class="container">
-    <div class="tr_head">
-      <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
-        <h3>Odaju Blog</h3>
-      </div>
-    </div>
-    <div class="tr_articleshead">
-      <div class="tr_article_title">
-        <div class="tr_title_date">Wednesday, February 5th, 2014</div>
-        <div class="tr_sub_title">
-          <h3>A SUBLINE TITLE FOR THE ARTICLE</h3>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padder_left">
-      <div class="tr_left">
-        <div class="tr_dropcap">M</div>
-        <p>ante lorem ipsum 
-          dolor sit amet, elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua. Ut enim ad minim vniam, <strong>quis nostrud</strong> exerci ullamco laboris nisi ut aliquip ex ea commodo consequat. <strong>Duis aute</strong> irure dolor in repreh in voluptate velit esse cillum dolore.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consetur adipisi elit, sed do eiusmod tempor idunt lorem dolor tempor.&nbsp;</p>
-        <p><img src="http://placehold.it/290x290" class="img-responsive" alt="" >Lorem ipsum dolor sit amet, cons adipisi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim vniam, quis nostrud exerci ullamco laboris nisi ut aliquip ex ea commodo consequat. <strong>Duis aute</strong> irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <a href="#">cupidatat non pro</a>, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consetur adipisicing elit.</p>
-        <p>Duis&nbsp;<strong>irure dolor</strong> in repreh in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excep sint occaecat cupidatat non proident, sunt in culpa qui officia <strong>deserunt mollit</strong> anim id est laborum.</p>
-      </div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
-      <div class="tr_right">
-        <div class="tr_dropcap">N</div>
-        <p>ante lorem ipsum dolor sit amet, consect adipi elit, sed do eiusmod tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim vniam,&nbsp;quis exercit ullamco laboris nisi ut aliquip ex ea commodo 
-          consequat. <strong>aute</strong> irure dolor in repreh in voluptate velit esse cillum dolore eu<a href="#"> fugiat 
-          nulla</a>&nbsp;
-          paria. Excep sint occae cupi non proident, sunt in culpa qui offic deseru mollit anim id est laborum. Lorem ipsum dolor sit amet consetur adipis, sed do eiusmod cupid non proident.</p>
-        <p>
-          <iframe src="http://www.youtube.com/embed/dFVt0OIbn-I" width="310" height="350"></iframe>
-          Lorem ipsum dolor sit amet, consecte ent adip el, sed do eiusm tempor inc ut labore et dolore magna aliq. Enim ad minim vniam, quis nost exercit ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          irure dolor in 
-          reprehe
-          nderit in volup velit esse cillum dolore eu fugiat nulla pariatur. Excep sint occaecat&nbsp;<a href="#"> cupidatat non proident</a>, sunt in culpa qui officia deserunt mollit anim id est laborum.&nbsp; <strong>Lorem ipsum</strong>&nbsp;dolor sit amet, consetur adipis elit, sed do eiusmod tempor idunt.</p>
-        <p>Duis aute irure dolor in repre in volup velit esse.</p>
-      </div>
-    </div>
-  </div>
-  <div class="tr_slider2">
-  <div class="Flexible-container tr_min_height tr_safari_img">
-      <img id="bgvid" src="../images/banner2.jpg" alt="Portafolio" />
-      <!--<video autoplay loop id="bgvid">
-       <source src="mediasource:https://www.youtube.com/53b6e083-f50e-4b68-8cc2-0e0283abb087" type="video/mp4">
-    </video>-->
-    <div class="tr_video_text">
-      <h1><span>SIEMPRE A LA MODA</span></h1>
-      <div class="tr_video_button"><a href="#portfolio">Mira nuestro catálogo</a></div>
-    </div>
-  </div>
-</div>
-</div>
-<!--Article Section finish--> 
+    <!--second menu end-->
 
-<!--Article Section finish--> 
+    <div class="tr_line"></div>
+
+    <!--HOME FINISH-->
+    <!--About Start-->
+    <div id="about" class="tr_page_section" ng-controller="AboutCtrl">
+        <div class="space"></div>
+        <div class="container">
+            <div class="tr_main_head">
+                <div class="tr_head_title push-down-10" data-scrollreveal="enter from the bottom over 1s">
+                    <h2>ODAJU STORE</h2>
+                </div>
+                <h4 class="text-uppercase push-down-40 tr_color">Be Yourself</h4>
+            </div>
+            <div class="text-center">
+                <p>{{About.QuienesSomos}}</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="tr_head_title push-down-10 tr_head_center" data-scrollreveal="enter from the bottom over 1s">
+                    <h2>Misión</h2>
+                </div>
+                <div class="text-justify">
+                    <p>{{About.Mision}}</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="tr_head_title push-down-10 tr_head_center" data-scrollreveal="enter from the bottom over 1s">
+                    <h2>Visión</h2>
+                </div>
+                <div class="text-justify">
+                    <p>{{About.Vision}}</p>
+                </div>
+            </div>
+            <div class="tr_social_icon col-lg-12">
+                <ul class="tr_head_center">
+                    <li ng-show="Red.Pintar" ng-repeat="Red in About.Redes"><a href="{{Red.Link}}" title="{{Red.Nombre}}" target="_blank"> <i class="fa" ng-class="Red.Icon"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--Gallery Slider-->
+        <div class="tr_gallery_slider">
+            <section id="photostack-1" class="photostack photostack-start">
+                <div>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Fashion Photography</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="img02" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Happy Days</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"> <img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Beautywood</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Heaven of time</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Speed Racer</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Forever this</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Lovely Green</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Wonderful</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Love Addict</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Friendship</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">White Nights</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Serendipity</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Pure Soul</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Winds of Peace</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Shades of blue</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#" class="photostack-img"><img src="../images/default.png" alt="" /></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Lightness</h2>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+        </div>
+        <!--Gallery Slider End-->
+    </div>
+    <!--About Finish-->
+    <!--Recent News Start-->
+    <div id="news" class="tr_page_section" ng-controller="NoticiasCtrl">
+        <div class="container">
+            <div class="tr_head">
+                <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
+                    <h3>Noticias</h3>
+                </div>
+            </div>
+            <div class="tr_news_title_small">
+                <p>Entérate de todo lo último que pasa en <span class="tr_color">Odaju Store</span> de una manéra rápida y confiable.</p>
+            </div>
+            <div class="tr_news_slider">
+                <div>
+                    <!-- Wrapper for slides -->
+                    <ul class="tr_fashion_slider">
+                        <li ng-repeat="Noticia in Noticias">
+                            <div class="tr_thumbnail">
+                                <div class="tr_left_img"> <div class="tr_opacity img-responsive" style="background: transparent url('{{Noticia.Imagen}}') repeat scroll 0% 0%;height: 100%;" alt="{{Noticia.Imagen}}"></div></div>
+                                <div class="tr_left_block">
+                                    <div class="tr_block_date">
+                                        <a href="comment.html">
+                                            <div class="tr_day">{{Noticia.Fecha.dia}}</div>
+                                            <div class="tr_date_line"></div>
+                                            <div class="tr_month"> {{Noticia.Fecha.mes}}</div>
+                                            <div class="tr_year"> {{Noticia.Fecha.ano}}</div>
+                                        </a>
+                                    </div>
+                                    <div class="tr_blog_description"><a href="{{Noticia.Link}}" target="_blank">Leer M&aacute;s</a> </div>
+                                </div>
+                                <div class="tr_right_block">
+                                    <div class="tr_author">Escrito por <a href="{{Noticia.Link}}" title="Posts by {{Noticia.Autor}}" rel="">{{Noticia.Autor}}</a></div>
+                                    <h5 class="text-uppercase"> <a href="{{Noticia.Link}}">{{Noticia.Titulo}}</a></h5>
+                                    <div class="post-description">{{Noticia.Prev}}  ...</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!--Controls-->
+
+                </div>
+            </div>
+
+            <!--Small Device Slider-->
+
+            <div class="tr_rows">
+                <div class="tr_thumbnail">
+                    <div class="tr_left_img"> <a href="author.html"> <img class="img-responsive tr_opacity" src="http://placehold.it/570x350" alt="Fashion Photography"></a></div>
+                    <div class="tr_center text_center">
+                        <div class="tr_left_block1">
+                            <div class="tr_block_date">
+                                <a href="comment.html">
+                                    <div class="tr_day">23</div>
+                                    <div class="tr_date_line"></div>
+                                    <div class="tr_month"> Mar</div>
+                                    <div class="tr_year"> 2013</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tr_right_block1">
+                        <div class="tr_author">Written by <a href="author.html" title="Posts by Teresa" rel="author">Teresa</a></div>
+                        <h5 class="text-uppercase"> <a href="comment.html">Fashionable Audio Song</a></h5>
+                        <div class="post-description">Lorem ipsum dolor sit amet, consecteter&nbsp;ad&nbsp;elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud  ...</div>
+                    </div>
+                </div>
+                <div class="tr_thumbnail">
+                    <div class="tr_left_img"> <a href="author.html"> <img class="img-responsive tr_opacity" src="http://placehold.it/570x350" alt="Fashion Photography"></a></div>
+                    <div class="tr_left_block1">
+                        <div class="tr_block_date">
+                            <a href="comment.html">
+                                <div class="tr_day">23</div>
+                                <div class="tr_date_line"></div>
+                                <div class="tr_month"> Mar</div>
+                                <div class="tr_year"> 2013</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tr_right_block1">
+                        <div class="tr_author">Written by <a href="author.html" title="Posts by Teresa" rel="author">Teresa</a></div>
+                        <h5 class="text-uppercase"> <a href="comment.html">Fashion Photography</a></h5>
+                        <div class="post-description">Lorem ipsum dolor sit amet, consecteter&nbsp;ad&nbsp;elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud  ...</div>
+                    </div>
+                </div>
+            </div>
+            <!--Small Device Sldier End-->
+        </div>
+        <!--Fade_in_fade_out_slider-->
+        <div class="tr_fade_in_slider">
+            <ul class="tr_fashion_slider_box">
+                <li>
+                    <div class="tr_fade_first"><span class="tr_first_text animated bounceInDown">Odaju Store</span><span class="tr_second_text animated  delay bounceInUp">Bazar Gitano 2015</span></div>
+                </li>
+                <li>
+                    <div class="tr_fade_first animated bounceInUp">Visítanos en el Bazar Gitano </div>
+                </li>
+                <li>
+                    <div class="tr_fade_first animated bounceInRight"><span class="tr_third_text animated delay bounceInRight">Centro Comercial Obelisco</span> Noviembre 27 - 28, 2015</div>
+                </li>
+            </ul>
+        </div>
+
+        <!--Fade_in_fade_out_slider_END-->
+    </div>
+    <!--news-End-->
+    <!--Portfolio-->
+    <div class="tr_page_section" id="portfolio" ng-controller="CatalogoCtrl">
+        <div class="container">
+            <div class="space"></div>
+            <div class="tr_head">
+                <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
+                    <h3>Catálogo</h3>
+                </div>
+            </div>
+            <div class="tr_news_title_small">
+                <!--<p>Mira nuestros <span class="tr_color">Fashion</span> projects to see what we can do</p>-->
+            </div>
+            <div class="tr_new_slider_box">
+                <ul rn-carousel class="tr_main_project_slider" style="height: 570px; display: block;width: 100%;" rn-carousel-transition="hexagon" rn-carousel-buffered>
+                    <li ng-repeat="Producto in CatalogoLucho">
+                        <div class="tr_one_third tr_common_slider">
+                            <div class="tr_recentimage" style="height: 100%;">
+                                <div class="tr_overdefult">
+                                    <div class="tr_recentdescription MarginInfoCata">
+                                        <a href="#" title="Video in Portfolio">
+                                            <h3>{{Producto.Nombre}}</h3>
+                                        </a>
+                                        <div class="tr-home-portfolio-categories">{{Producto.Categoria}}</div>
+                                        <div class="tr-home-portfolio-categories">{{Producto.Precio}}</div>
+                                    </div>
+                                </div>
+                                <div class="tr_image"> <a href="#"> <img src="{{Producto.Imagen}}" alt=""> </a> </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <a href="#">Ver Todo el Catálogo</a>
+            </div>
+        </div>
+        <!--<div class="tr_tabs_slide_section">
+          <ul class="tr_tab_slider">
+            <li><img src="http://placehold.it/393x300" alt=""></li>
+            <li><img src="http://placehold.it/393x300" alt=""></li>
+            <li><img src="http://placehold.it/393x300" alt=""></li>
+            <li><img src="http://placehold.it/393x300" alt=""></li>
+            <li><img src="http://placehold.it/393x300" alt=""></li>
+            <li><img src="http://placehold.it/393x300" alt=""></li>
+            <li><img src="http://placehold.it/393x300" alt=""></li>
+            <li><img src="http://placehold.it/393x300" alt=""></li>
+            <li><img src="http://placehold.it/393x300" alt=""></li>
+            <li><img src="http://placehold.it/393x300" alt=""></li>
+            <li><img src="http://placehold.it/393x300" alt=""></li>
+          </ul>
+        </div>-->
+    </div>
+
+    <!--Article Section Start-->
+    <div class="tr_page_section" id="article">
+        <div class="container">
+            <div class="tr_head">
+                <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
+                    <h3>Odaju Blog</h3>
+                </div>
+            </div>
+            <div class="tr_articleshead">
+                <div class="tr_article_title">
+                    <div class="tr_title_date">Wednesday, February 5th, 2014</div>
+                    <div class="tr_sub_title">
+                        <h3>A SUBLINE TITLE FOR THE ARTICLE</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padder_left">
+                <div class="tr_left">
+                    <div class="tr_dropcap">M</div>
+                    <p>
+                        ante lorem ipsum
+                        dolor sit amet, elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua. Ut enim ad minim vniam, <strong>quis nostrud</strong> exerci ullamco laboris nisi ut aliquip ex ea commodo consequat. <strong>Duis aute</strong> irure dolor in repreh in voluptate velit esse cillum dolore.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consetur adipisi elit, sed do eiusmod tempor idunt lorem dolor tempor.&nbsp;
+                    </p>
+                    <p><img src="http://placehold.it/290x290" class="img-responsive" alt="">Lorem ipsum dolor sit amet, cons adipisi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim vniam, quis nostrud exerci ullamco laboris nisi ut aliquip ex ea commodo consequat. <strong>Duis aute</strong> irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <a href="#">cupidatat non pro</a>, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consetur adipisicing elit.</p>
+                    <p>Duis&nbsp;<strong>irure dolor</strong> in repreh in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excep sint occaecat cupidatat non proident, sunt in culpa qui officia <strong>deserunt mollit</strong> anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="tr_right">
+                    <div class="tr_dropcap">N</div>
+                    <p>
+                        ante lorem ipsum dolor sit amet, consect adipi elit, sed do eiusmod tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim vniam,&nbsp;quis exercit ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. <strong>aute</strong> irure dolor in repreh in voluptate velit esse cillum dolore eu<a href="#">
+                            fugiat
+                            nulla
+                        </a>&nbsp;
+                        paria. Excep sint occae cupi non proident, sunt in culpa qui offic deseru mollit anim id est laborum. Lorem ipsum dolor sit amet consetur adipis, sed do eiusmod cupid non proident.
+                    </p>
+                    <p>
+                        <iframe src="http://www.youtube.com/embed/dFVt0OIbn-I" width="310" height="350"></iframe>
+                        Lorem ipsum dolor sit amet, consecte ent adip el, sed do eiusm tempor inc ut labore et dolore magna aliq. Enim ad minim vniam, quis nost exercit ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        irure dolor in
+                        reprehe
+                        nderit in volup velit esse cillum dolore eu fugiat nulla pariatur. Excep sint occaecat&nbsp;<a href="#"> cupidatat non proident</a>, sunt in culpa qui officia deserunt mollit anim id est laborum.&nbsp; <strong>Lorem ipsum</strong>&nbsp;dolor sit amet, consetur adipis elit, sed do eiusmod tempor idunt.
+                    </p>
+                    <p>Duis aute irure dolor in repre in volup velit esse.</p>
+                </div>
+            </div>
+        </div>
+        <div class="tr_slider2">
+            <div class="Flexible-container tr_min_height tr_safari_img">
+                <img id="bgvid" src="../images/banner2.jpg" alt="Portafolio" />
+                <!--<video autoplay loop id="bgvid">
+                   <source src="mediasource:https://www.youtube.com/53b6e083-f50e-4b68-8cc2-0e0283abb087" type="video/mp4">
+                </video>-->
+                <div class="tr_video_text">
+                    <h1><span>SIEMPRE A LA MODA</span></h1>
+                    <div class="tr_video_button"><a href="#portfolio">Mira nuestro catálogo</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Article Section finish-->
+    <!--Article Section finish-->
     <!--Quotes Section Start-->
     <div class="tr_page_section" id="quotes" ng-controller="TestimoniosCtrl">
         <div class="space"></div>
@@ -553,188 +523,214 @@
         </div>
     </div>
     <!--Quotes Section End-->
+    <!--Team Section Start-->
+    <div class="tr_page_section" id="team">
+        <div class="container">
+            <div class="tr_head">
+                <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
+                    <h3>Éstos Somos nosotros</h3>
+                </div>
+            </div>
+            <div class="tr_news_title_small">
+                <p>Odaju Store se enorgullece de presentar el grandioso <span class="tr_color">equipo</span> que está detras</p>
+            </div>
+            <div class="tr_team">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="tr_team_member">
+                            <div class="tr_team_image"><img src="../images/default.png" class="tr_opacity" alt=""></div>
+                            <div class="tr_name">Juliana Bedoya Delgado</div>
+                            <div class="tr_role">Gerente comercial</div>
+                            <p class="tr_info">Lorem ipsum dolor sit amet, tuer adipiscing elit, sed diam nibh.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="tr_team_member">
+                            <div class="tr_team_image"> <img src="../images/default.png" class="tr_opacity" alt=""></div>
+                            <div class="tr_name">Odacir López Muñoz</div>
+                            <div class="tr_role">Gerente financiero</div>
+                            <p class="tr_info">Lorem ipsum dolor sit amet, tuer adipiscing elit, sed diam nibh.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="tr_team_member">
+                            <div class="tr_team_image"> <img src="../images/default.png" class="tr_opacity" alt=""></div>
+                            <div class="tr_name">Felipe Hoyos Foronda</div>
+                            <div class="tr_role">Director Creativo</div>
+                            <p class="tr_info">Lorem ipsum dolor sit amet, tuer adipiscing elit, sed diam nibh.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<!--Team Section Start-->
-<div class="tr_page_section" id="team">
-  <div class="container">
-    <div class="tr_head">
-      <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
-        <h3>Éstos Somos nosotros</h3>
-      </div>
+    <div class="tr_page_section" id="team" ng-controller="EquipoCtrl">
+        <div class="container">
+            <div class="tr_head">
+                <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
+                    <h3>Nuestros Diseñadores</h3>
+                </div>
+            </div>
+            <div class="tr_news_title_small">
+                <p>Estos son los creadores de todos nuestros <span class="tr_color">grandiosos</span> productos</p>
+            </div>
+            <div class="tr_team">
+                <div class="row" ng-repeat="Row in Equipo">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" ng-repeat="Disenador in Row.Equipo">
+                        <div class="tr_team_member">
+                            <div class="tr_team_image" style="height: 318px;"><img src="{{Disenador.Imagen}}" class="tr_opacity" alt="{{Disenador.Nombre}}"></div>
+                            <div class="tr_name">{{Disenador.Nombre}}</div>
+                            <div class="tr_role">{{Disenador.Cargo}}</div>
+                            <p class="tr_info">{{Disenador.Descripcion}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="tr_news_title_small" >
-      <p>Odaju Store se enorgullece de presentar el grandioso <span class="tr_color">equipo</span> que está detras</p>
+    <!--TEAM Secton End-->
+    <!--Contact Section Start-->
+    <div class="tr_page_section" id="contact">
+        <div class="tr-contact-info">
+            <div class="container">
+                <div class="tr_contacthead" id="tr_contacthead">
+                    <div class="text-center">
+                        <h1 data-scrollreveal="enter from the bottom over 1s" class="title"> contáctanos</h1>
+                        <div class="tr-contact-description">
+                            <p>Si quieres saber algo de nuestros productos o quieres realizar un pedido, solo envíanos un mensaje y pronto te responderemos</p>
+                        </div>
+                    </div>
+                </div>
+                <!--contact form-->
+                <div class="col-lg-6 col-md-6">
+                    <div>
+                        <div class="form-group">
+                            <label> Nombre </label><label style="color:#C9341F;">*</label>
+                            <input type="text" id="uname" name="name" placeholder="" class="tr_form_control">
+                        </div>
+                        <div class="form-group">
+                            <label> Email </label><label style="color:#C9341F;">*</label>
+                            <input type="email" id="umail" name="email" placeholder="" class="tr_form_control">
+                        </div>
+                        <div class="form-group">
+                            <label> Asunto </label>
+                            <input type="text" id="subj" name="l_name" placeholder="" class="tr_form_control">
+                        </div>
+                        <div class="form-group">
+                            <label> Mensaje </label><label style="color:#C9341F;">*</label>
+                            <textarea id="msg" rows="5" class="tr_form_control tr_textarea"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="button" name="sub_sub" id="em_submit" class="tr_btn" value="Enviar" />
+                            <p id="err"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="tr_contact_right">
+                        <div class="tr_contact_right_head"> ODAJU STORE </div>
+                        <div class="tr_phone_no">
+                            <div class="tr_ph_no"><i class="fa fa-whatsapp fa-2x" style="color:green; vertical-align: -5px;"></i> (+57) 310-440-0046</div>
+                            <div class="tr_email"><i class="fa fa-envelope fa-2x" style="vertical-align: -5px;"></i> comercial.odaju@outlook.com </div>
+                        </div>
+                        <p> </p>
+                        <p> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="tr_team">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-          <div class="tr_team_member">
-            <div class="tr_team_image"><img src="../images/default.png" class="tr_opacity" alt=""></div>
-            <div class="tr_name">Juliana Bedoya Delgado</div>
-            <div class="tr_role">Gerente comercial</div>
-            <p class="tr_info">Lorem ipsum dolor sit amet, tuer adipiscing elit, sed diam nibh.</p>
-          </div>
+    <!--Contact Section End-->
+    <!--go to top-->
+    <div class="totop">
+        <div class="gototop">
+            <a href="#">
+                <div class="arrowgototop"> </div>
+            </a>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-          <div class="tr_team_member">
-            <div class="tr_team_image"> <img src="../images/default.png" class="tr_opacity" alt=""></div>
-            <div class="tr_name">Odacir López Muñoz</div>
-            <div class="tr_role">Gerente financiero</div>
-            <p class="tr_info">Lorem ipsum dolor sit amet, tuer adipiscing elit, sed diam nibh.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-          <div class="tr_team_member">
-            <div class="tr_team_image"> <img src="../images/default.png" class="tr_opacity" alt=""></div>
-            <div class="tr_name">Felipe Hoyos Foronda</div>
-            <div class="tr_role">Director Creativo</div>
-            <p class="tr_info">Lorem ipsum dolor sit amet, tuer adipiscing elit, sed diam nibh.</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
-<!--TEAM Secton End--> 
-<!--Contact Section Start-->
-<div class="tr_page_section" id="contact">
-  <div class="tr-contact-info">
-    <div class="container">
-      <div class="tr_contacthead" id="tr_contacthead">
-        <div class="text-center">
-          <h1 data-scrollreveal="enter from the bottom over 1s" class="title"> contáctanos</h1>
-          <div class="tr-contact-description">
-            <p>Si quieres saber algo de nuestros productos o quieres realizar un pedido, solo envíanos un mensaje y pronto te responderemos</p>
-          </div>
-        </div>
-      </div>
-      <!--contact form-->
-      <div class="col-lg-6 col-md-6">
-        <div>
-          <div class="form-group">
-            <label> Nombre </label><label style="color:#C9341F;">*</label>
-            <input type="text" id="uname" name="name" placeholder="" class="tr_form_control">
-          </div>
-          <div class="form-group">
-            <label> Email </label><label style="color:#C9341F;">*</label>
-            <input type="email" id="umail" name="email" placeholder="" class="tr_form_control">
-          </div>
-          <div class="form-group">
-            <label> Asunto </label>
-            <input  type="text" id="subj" name="l_name" placeholder="" class="tr_form_control">
-          </div>
-          <div class="form-group">
-            <label> Mensaje </label><label style="color:#C9341F;">*</label>
-            <textarea  id="msg" rows="5" class="tr_form_control tr_textarea">
-            </textarea>
-          </div>
-          <div class="form-group">
-            <input type="button" name="sub_sub" id="em_submit" class="tr_btn" value="Enviar" />
-            <p id="err"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <div class="tr_contact_right">
-          <div class="tr_contact_right_head"> ODAJU STORE </div>
-          <div class="tr_phone_no">
-            <div class="tr_ph_no"> WhatsApp: (+57) 310-440-0046</div>
-            <div class="tr_email"> comercial.odaju@outlook.com </div>
-          </div>
-          <p> </p>
-          <p> </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--Contact Section End--> 
-<!--go to top-->
-<div class="totop" >
-  <div class="gototop"> <a href="#">
-    <div class="arrowgototop"> </div>
-    </a> </div>
-</div>
-<!--Footer Start-->
-<!--<div class="tr_footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <div class="tr_widget">
-          <div class="tr_footer_title">
-            <h3>Text Widget</h3>
-          </div>
-          <div class="tr_footer_description"> Lorem ipsum dolor sit amet, consec tuer adipiscing elit, sed diam nonum nibh euismod. <b>Lotuer adipiscing</b> elit, sed diam nibh eu. </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <div class="tr_widget">
-          <div class="tr_footer_title">
-            <h3>Tags</h3>
-          </div>
-          <div class="tr_footer_tag_description"> <a href="tag.html">AUDIO</a> <a href="tag.html">BUSINESS</a> <a href="tag.html">ELEGANT</a> <a href="tag.html">FASHION</a> <a href="tag.html">GALLERY</a> <a href="tag.html">PHOTOGRAPHY</a> <a href="tag.html">PRESENT</a> <a href="tag.html">SONG</a> <a href="tag.html">TRIP</a> <a href="tag.html">VIDEO</a> <a href="tag.html">WEDDING</a> </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <div class="tr_widget">
-          <div class="tr_footer_title">
-            <h3>About Us</h3>
-          </div>
-          <div class="tr_footer_description"> <b>Teresa d.o.o.</b>, 1000 Ljubljana
-            Celovska 135 <br>
-            <br>
-            <b>Phone:</b> (+386) 40 123 456<br>
-            <b>Email:</b> info@teresa.com </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <div class="tr_widget">
-          <div class="tr_footer_title">
-            <h3>Recent Post</h3>
-          </div>
-          <div class="tr_footer_description">
-            <div class="tr_post1"><a href=""><img src="http://placehold.it/90x60" class="img-responsive tr_opacity" alt=""> </a></div>
-            <div class="tr_post_info">
-              <h6><a href="fashion-photography.html">Fashion Photography</a></h6>
+    <!--Footer Start-->
+    <!--<div class="tr_footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <div class="tr_widget">
+              <div class="tr_footer_title">
+                <h3>Text Widget</h3>
+              </div>
+              <div class="tr_footer_description"> Lorem ipsum dolor sit amet, consec tuer adipiscing elit, sed diam nonum nibh euismod. <b>Lotuer adipiscing</b> elit, sed diam nibh eu. </div>
             </div>
           </div>
-          <div class="tr_footer_description">
-            <div class="tr_post1"><a href=""><img src="http://placehold.it/90x60" class="img-responsive tr_opacity" alt=""> </a></div>
-            <div class="tr_post_info">
-              <h6><a href="photoshooting-at-wedding-ceremony.html">Photoshooting at Wedding</a></h6>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <div class="tr_widget">
+              <div class="tr_footer_title">
+                <h3>Tags</h3>
+              </div>
+              <div class="tr_footer_tag_description"> <a href="tag.html">AUDIO</a> <a href="tag.html">BUSINESS</a> <a href="tag.html">ELEGANT</a> <a href="tag.html">FASHION</a> <a href="tag.html">GALLERY</a> <a href="tag.html">PHOTOGRAPHY</a> <a href="tag.html">PRESENT</a> <a href="tag.html">SONG</a> <a href="tag.html">TRIP</a> <a href="tag.html">VIDEO</a> <a href="tag.html">WEDDING</a> </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <div class="tr_widget">
+              <div class="tr_footer_title">
+                <h3>About Us</h3>
+              </div>
+              <div class="tr_footer_description"> <b>Teresa d.o.o.</b>, 1000 Ljubljana
+                Celovska 135 <br>
+                <br>
+                <b>Phone:</b> (+386) 40 123 456<br>
+                <b>Email:</b> info@teresa.com </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <div class="tr_widget">
+              <div class="tr_footer_title">
+                <h3>Recent Post</h3>
+              </div>
+              <div class="tr_footer_description">
+                <div class="tr_post1"><a href=""><img src="http://placehold.it/90x60" class="img-responsive tr_opacity" alt=""> </a></div>
+                <div class="tr_post_info">
+                  <h6><a href="fashion-photography.html">Fashion Photography</a></h6>
+                </div>
+              </div>
+              <div class="tr_footer_description">
+                <div class="tr_post1"><a href=""><img src="http://placehold.it/90x60" class="img-responsive tr_opacity" alt=""> </a></div>
+                <div class="tr_post_info">
+                  <h6><a href="photoshooting-at-wedding-ceremony.html">Photoshooting at Wedding</a></h6>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>-->
-<footer>
-  <div class="container">
-    <div class="tr_copyright"> OdajuStore© 2015. <a href="http://www.developersanddesigners.com.co/" target="_blank">D&D Develoeprs and Designers</a> | Todos los derechos reservados </div>
-  </div>
-</footer>
-<!--Footer End--> 
-<!--Scripts Start--> 
-<script src="js/jquery_min.js" type="text/javascript"></script> 
-<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script> 
-<script src="js/bootstrap.js" type="text/javascript"></script> 
-<script src="js/scrollReveal.js" type="text/javascript"></script> 
-<script src="js/jquery.bxslider.min.js" type="text/javascript"></script> 
-<script src="js/jquery.mixitup.js" type="text/javascript"></script> 
-<script src="js/plugins/scattered/js/modernizr.min.js" type="text/javascript"></script> 
-<script src="js/plugins/scattered/js/classie.js" type="text/javascript"></script> 
-<script src="js/plugins/scattered/js/photostack.js" type="text/javascript"></script> 
-<script src="js/plugins/revolution/js/jquery.themepunch.revolution.min.js" type="text/javascript" charset="utf-8"></script> 
-<script src="js/plugins/revolution/js/jquery.themepunch.tools.min.js" type="text/javascript" charset="utf-8"></script> 
-<script src="js/custom.js" type="text/javascript"></script> 
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-touch.min.js"></script>
-<script src="lib/angular-carousel/angular-carousel.js"></script>
-<script src="js/Angular/services.js"></script>
-<script src="js/Angular/controllers.js"></script>
+    </div>-->
+    <footer>
+        <div class="container">
+            <div class="tr_copyright"> OdajuStore© 2015. <a href="http://www.developersanddesigners.com.co/" target="_blank">D&D Develoeprs and Designers</a> | Todos los derechos reservados </div>
+        </div>
+    </footer>
+    <!--Footer End-->
+    <!--Scripts Start-->
+    <script src="js/jquery_min.js" type="text/javascript"></script>
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/scrollReveal.js" type="text/javascript"></script>
+    <script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+    <script src="js/jquery.mixitup.js" type="text/javascript"></script>
+    <script src="js/plugins/scattered/js/modernizr.min.js" type="text/javascript"></script>
+    <script src="js/plugins/scattered/js/classie.js" type="text/javascript"></script>
+    <script src="js/plugins/scattered/js/photostack.js" type="text/javascript"></script>
+    <script src="js/plugins/revolution/js/jquery.themepunch.revolution.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/plugins/revolution/js/jquery.themepunch.tools.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-touch.min.js"></script>
+    <script src="lib/angular-carousel/angular-carousel.js"></script>
+    <script src="js/GlobalV.js"></script>
+    <script src="js/Angular/services.js"></script>
+    <script src="js/Angular/controllers.js"></script>
 
-<!--Scripts End--> 
-<!--Body End-->
+    <!--Scripts End-->
+    <!--Body End-->
 </body>
 </html>

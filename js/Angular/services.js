@@ -42,10 +42,10 @@
         });
     };
 
-    Result.GetCanciones = function (CallBack, onError) {
+    Result.GetEquipo = function (CallBack, onError) {
         $http.get("../../Data/odaju.json")
 		.success(function (data, status, headers, config) {
-		    CallBack(data.RecursosJeloz.EmisoraOnline);
+		    CallBack(data.Equipo);
 		})
         .error(function (data, status, headers, config) {
             onError(data);
