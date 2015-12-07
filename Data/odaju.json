@@ -65,6 +65,7 @@
   "Catalogo": [
     {
       "Categoria": "Bolsos",
+      "CodigoCatego": "bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso.jpg",
       "Nombre": "Bolso ",
@@ -72,6 +73,7 @@
     },
     {
       "Categoria": "Bolsos",
+      "CodigoCatego": "bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso3.jpg",
       "Nombre": "Bolso 1",
@@ -79,6 +81,7 @@
     },
     {
       "Categoria": "Bolsos",
+      "CodigoCatego": "bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso5.jpg",
       "Nombre": "Bolso 2",
@@ -86,6 +89,7 @@
     },
     {
       "Categoria": "Bolsos",
+      "CodigoCatego": "bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso6.jpg",
       "Nombre": "Bolso 3",
@@ -93,6 +97,7 @@
     },
     {
       "Categoria": "Bolsos",
+      "CodigoCatego": "bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso7.jpg",
       "Nombre": "Bolso 4",
@@ -100,6 +105,7 @@
     },
     {
       "Categoria": "Bolsos",
+      "CodigoCatego": "bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso8.jpg",
       "Nombre": "Bolso 5",
@@ -107,6 +113,7 @@
     },
     {
       "Categoria": "Bolsos",
+      "CodigoCatego": "bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso9.jpg",
       "Nombre": "Bolso 6",
@@ -114,6 +121,7 @@
     },
     {
       "Categoria": "Bolsos",
+      "CodigoCatego": "bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso10.jpg",
       "Nombre": "Bolso 7",
@@ -121,6 +129,7 @@
     },
     {
       "Categoria": "Bolsos",
+      "CodigoCatego": "bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso11.jpg",
       "Nombre": "Bolso 8",
@@ -128,6 +137,7 @@
     },
     {
       "Categoria": "Bolsos",
+      "CodigoCatego": "bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso12.jpg",
       "Nombre": "Bolso 9",
@@ -135,6 +145,7 @@
     },
     {
       "Categoria": "Bolsos",
+      "CodigoCatego": "bolsos",
       "Descripcion": "",
       "Imagen": "Catalogo/bolso13.jpg",
       "Nombre": "Bolso 10",
@@ -142,6 +153,7 @@
     },
     {
       "Categoria": "Ropa Dama",
+      "CodigoCatego": "ropa-dama",
       "Descripcion": "",
       "Imagen": "Catalogo/Ropa Dama/ropa6.jpg",
       "Nombre": "Blazer",
@@ -149,6 +161,7 @@
     },
     {
       "Categoria": "Ropa Dama",
+      "CodigoCatego": "ropa-dama",
       "Descripcion": "",
       "Imagen": "Catalogo/Ropa Dama/ropa4.jpg",
       "Nombre": "Camisa Vinotinto",
@@ -156,6 +169,7 @@
     },
     {
       "Categoria": "Ropa Dama",
+      "CodigoCatego": "ropa-dama",
       "Descripcion": "",
       "Imagen": "Catalogo/Ropa Dama/ropa2.jpg",
       "Nombre": "Camisa Azul",
@@ -163,6 +177,7 @@
     },
     {
       "Categoria": "Ropa Dama",
+      "CodigoCatego": "ropa-dama",
       "Descripcion": "",
       "Imagen": "Catalogo/Ropa Dama/ropa1.jpg",
       "Nombre": "Camisa Negra",
@@ -170,6 +185,7 @@
     },
     {
       "Categoria": "Ropa Dama",
+      "CodigoCatego": "ropa-dama",
       "Descripcion": "",
       "Imagen": "Catalogo/Ropa Dama/ropa3.jpg",
       "Nombre": "Pantalon Vinotinto",
@@ -177,6 +193,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido1.jpg",
       "Nombre": "Vestido de Baño 1",
@@ -184,6 +201,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido2.jpg",
       "Nombre": "Vestido de Baño 2",
@@ -191,6 +209,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido3.jpg",
       "Nombre": "Vestido de Baño 3",
@@ -198,6 +217,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido4.jpg",
       "Nombre": "Vestido de Baño 4",
@@ -205,6 +225,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido5.jpg",
       "Nombre": "Vestido de Baño 5",
@@ -212,6 +233,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido6.jpg",
       "Nombre": "Vestido de Baño 6",
@@ -219,6 +241,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido7.jpg",
       "Nombre": "Vestido de Baño 7",
@@ -226,6 +249,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido8.jpg",
       "Nombre": "Vestido de Baño 8",
@@ -233,6 +257,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido9.jpg",
       "Nombre": "Vestido de Baño 9",
@@ -240,6 +265,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido10.jpg",
       "Nombre": "Vestido de Baño 10",
@@ -247,6 +273,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido11.jpg",
       "Nombre": "Vestido de Baño 11",
@@ -254,6 +281,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido12.jpg",
       "Nombre": "Vestido de Baño 12",
@@ -261,6 +289,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido13.jpg",
       "Nombre": "Vestido de Baño 13",
@@ -268,6 +297,7 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido14.jpg",
       "Nombre": "Vestido de Baño 14",
@@ -275,10 +305,33 @@
     },
     {
       "Categoria": "Vestidos de Baño",
+      "CodigoCatego": "vestidos-bano",
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido15.jpg",
       "Nombre": "Vestido de Baño 15",
       "Precio": "$105,000"
+    }
+  ],
+  "Categorias": [
+    {
+      "Codigo": "accesorios",
+      "Nombre": "Accesorios"
+    },
+    {
+      "Codigo": "bolsos",
+      "Nombre": "Bolsos"
+    },
+    {
+      "Codigo": "ropa-caballero",
+      "Nombre": "Ropa Caballero"
+    },
+    {
+      "Codigo": "ropa-dama",
+      "Nombre": "Ropa Dama"
+    },
+    {
+      "Codigo": "vestidos-bano",
+      "Nombre": "Vestidos de Baño"
     }
   ],
   "Equipo": [

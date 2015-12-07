@@ -21,9 +21,9 @@
 <!-- Body Start -->
 <body>
     <!--Pre loader start-->
-    <!--<div id="preloader">
+    <div id="preloader">
       <div id="status"><img src="images/loading.gif" id="preloader_image" alt="loader"></div>
-    </div>-->
+    </div>
     <!--pre loader end-->
     <div class="teresa_home"></div>
     <div id="home" class="tr_page_section">
@@ -92,10 +92,10 @@
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="#about" class="scroll-link" data-id="about">Nosotros</a> </li>
-                        <li><a href="#news" class="scroll-link" data-id="news">Noticias</a></li>
                         <li><a href="#portfolio" class="scroll-link" data-id="portfolio">Catálogo</a></li>
-                        <li><a href="#article" class="scroll-link" data-id="article">Blog</a></li>
                         <li><a href="#quotes" class="scroll-link" data-id="quotes">Testimonios</a></li>
+                        <li><a href="#article" class="scroll-link" data-id="article">Blog</a></li>
+                        <li><a href="#news" class="scroll-link" data-id="news">Noticias</a></li>
                         <li><a href="#team" class="scroll-link" data-id="team">Conocenos</a></li>
                         <li><a href="#contact" class="scroll-link" data-id="contact">Contacto</a></li>
                     </ul>
@@ -114,10 +114,10 @@
             <div class="menu-fixedmenu home">
                 <ul id="menu-home-page" class="menu">
                     <li><a href="#about" class="scroll-link" data-id="about">Nosotros</a> </li>
-                    <li><a href="#news" class="scroll-link" data-id="news">Noticias</a></li>
                     <li><a href="#portfolio" class="scroll-link" data-id="portfolio">Catálogo</a></li>
-                    <li><a href="#article" class="scroll-link" data-id="article">Blog</a></li>
                     <li><a href="#quotes" class="scroll-link" data-id="quotes">Testimonios</a></li>
+                    <li><a href="#article" class="scroll-link" data-id="article">Blog</a></li>
+                    <li><a href="#news" class="scroll-link" data-id="news">Noticias</a></li>
                     <li><a href="#team" class="scroll-link" data-id="team">Conocenos</a></li>
                     <li><a href="#contact" class="scroll-link" data-id="contact">Contacto</a></li>
                 </ul>
@@ -165,6 +165,117 @@
                 </ul>
             </div>
         </div>
+
+
+        <div class="tr_page_section">
+            <div class="container">
+                <div class="tr_head">
+                    <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
+                        <h3>Éstos Somos nosotros</h3>
+                    </div>
+                </div>
+                <div class="tr_news_title_small">
+                    <p>Odaju Store se enorgullece de presentar el grandioso <span class="tr_color">equipo</span> que está detras</p>
+                </div>
+                <div class="tr_team">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="tr_team_member">
+                                <div class="tr_team_image"><img src="../images/default.png" class="tr_opacity" alt=""></div>
+                                <div class="tr_name">Juliana Bedoya Delgado</div>
+                                <div class="tr_role">Gerente comercial</div>
+                                <p class="tr_info">Lorem ipsum dolor sit amet, tuer adipiscing elit, sed diam nibh.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="tr_team_member">
+                                <div class="tr_team_image"> <img src="../images/default.png" class="tr_opacity" alt=""></div>
+                                <div class="tr_name">Odacir López Muñoz</div>
+                                <div class="tr_role">Gerente financiero</div>
+                                <p class="tr_info">Lorem ipsum dolor sit amet, tuer adipiscing elit, sed diam nibh.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="tr_team_member">
+                                <div class="tr_team_image"> <img src="../images/default.png" class="tr_opacity" alt=""></div>
+                                <div class="tr_name">Felipe Hoyos Foronda</div>
+                                <div class="tr_role">Director Creativo</div>
+                                <p class="tr_info">Lorem ipsum dolor sit amet, tuer adipiscing elit, sed diam nibh.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Portfolio-->
+        <div class="tr_page_section" id="portfolio" ng-controller="CatalogoCtrl">
+            <div class="container">
+                <div class="space"></div>
+                <div class="tr_head">
+                    <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
+                        <h3>Catálogo</h3>
+                    </div>
+                </div>
+                <div class="tr_news_title_small">
+                    <!--<p>Mira nuestros <span class="tr_color">Fashion</span> projects to see what we can do</p>-->
+                </div>
+                <div class="tr_new_slider_box">
+                    <ul rn-carousel class="tr_main_project_slider" style="height: 570px; display: block;width: 100%;" rn-carousel-transition="hexagon" rn-carousel-buffered>
+                        <li ng-repeat="Producto in CatalogoLucho">
+                            <div class="tr_one_third tr_common_slider">
+                                <div class="tr_recentimage" style="height: 100%;">
+                                    <div class="tr_overdefult">
+                                        <div class="tr_recentdescription MarginInfoCata">
+                                            <a href="#" title="{{Producto.Nombre}}">
+                                                <h3>{{Producto.Nombre}}</h3>
+                                            </a>
+                                            <div class="tr-home-portfolio-categories">{{Producto.Categoria}}</div>
+                                            <div class="tr-home-portfolio-categories">{{Producto.Precio}}</div>
+                                        </div>
+                                    </div>
+                                    <div class="tr_image"> <a href="#"> <img src="{{Producto.Imagen}}" alt=""> </a> </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a href="Catalogo.html">Ver Todo el Catálogo</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Quotes Section Start-->
+        <div class="tr_page_section" id="quotes" ng-controller="TestimoniosCtrl">
+            <div class="space"></div>
+            <div class="container">
+                <div class="tr_head">
+                    <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
+                        <h3>Testimonios</h3>
+                    </div>
+                </div>
+                <div class="tr_quote_slider">
+                    <div id="tr_testimonial" class="carousel slide" data-ride="carousel">
+                        <!--Indicators-->
+                        <a class="left carousel-control" href="#tr_testimonial" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#tr_testimonial" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                        <!--Wrapper for slides-->
+                        <div class="carousel-inner">
+                            <div class="item" ng-class="($index == 0)?'active':''" ng-repeat="test in Testimonios">
+                                <div class="tr-article-title">
+                                    <div class="tr_border"></div>
+                                    <div class="tr_quote_author"><span class="quote-author">{{test.Nombre}}</span></div>
+                                    <div class="tr-author-text">
+                                        <p><i class="fa fa-quote-left"></i> {{test.Comentario}}<i class="fa fa-quote-right"></i> </p>
+                                        <div class="quote-after"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Quotes Section End-->
+
         <!--Gallery Slider-->
         <div class="tr_gallery_slider">
             <section id="photostack-1" class="photostack photostack-start">
@@ -271,163 +382,6 @@
         <!--Gallery Slider End-->
     </div>
     <!--About Finish-->
-    <!--Recent News Start-->
-    <div id="news" class="tr_page_section" ng-controller="NoticiasCtrl">
-        <div class="container">
-            <div class="tr_head">
-                <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
-                    <h3>Noticias</h3>
-                </div>
-            </div>
-            <div class="tr_news_title_small">
-                <p>Entérate de todo lo último que pasa en <span class="tr_color">Odaju Store</span> de una manéra rápida y confiable.</p>
-            </div>
-            <div class="tr_news_slider">
-                <div>
-                    <!-- Wrapper for slides -->
-                    <ul class="tr_fashion_slider">
-                        <li ng-repeat="Noticia in Noticias">
-                            <div class="tr_thumbnail">
-                                <div class="tr_left_img"> <div class="tr_opacity img-responsive" style="background: transparent url('{{Noticia.Imagen}}') repeat scroll 0% 0%;height: 100%;" alt="{{Noticia.Imagen}}"></div></div>
-                                <div class="tr_left_block">
-                                    <div class="tr_block_date">
-                                        <a href="comment.html">
-                                            <div class="tr_day">{{Noticia.Fecha.dia}}</div>
-                                            <div class="tr_date_line"></div>
-                                            <div class="tr_month"> {{Noticia.Fecha.mes}}</div>
-                                            <div class="tr_year"> {{Noticia.Fecha.ano}}</div>
-                                        </a>
-                                    </div>
-                                    <div class="tr_blog_description"><a href="{{Noticia.Link}}" target="_blank">Leer M&aacute;s</a> </div>
-                                </div>
-                                <div class="tr_right_block">
-                                    <div class="tr_author">Escrito por <a href="{{Noticia.Link}}" title="Posts by {{Noticia.Autor}}" rel="">{{Noticia.Autor}}</a></div>
-                                    <h5 class="text-uppercase"> <a href="{{Noticia.Link}}">{{Noticia.Titulo}}</a></h5>
-                                    <div class="post-description">{{Noticia.Prev}}  ...</div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <!--Controls-->
-
-                </div>
-            </div>
-
-            <!--Small Device Slider-->
-
-            <div class="tr_rows">
-                <div class="tr_thumbnail">
-                    <div class="tr_left_img"> <a href="author.html"> <img class="img-responsive tr_opacity" src="http://placehold.it/570x350" alt="Fashion Photography"></a></div>
-                    <div class="tr_center text_center">
-                        <div class="tr_left_block1">
-                            <div class="tr_block_date">
-                                <a href="comment.html">
-                                    <div class="tr_day">23</div>
-                                    <div class="tr_date_line"></div>
-                                    <div class="tr_month"> Mar</div>
-                                    <div class="tr_year"> 2013</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tr_right_block1">
-                        <div class="tr_author">Written by <a href="author.html" title="Posts by Teresa" rel="author">Teresa</a></div>
-                        <h5 class="text-uppercase"> <a href="comment.html">Fashionable Audio Song</a></h5>
-                        <div class="post-description">Lorem ipsum dolor sit amet, consecteter&nbsp;ad&nbsp;elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud  ...</div>
-                    </div>
-                </div>
-                <div class="tr_thumbnail">
-                    <div class="tr_left_img"> <a href="author.html"> <img class="img-responsive tr_opacity" src="http://placehold.it/570x350" alt="Fashion Photography"></a></div>
-                    <div class="tr_left_block1">
-                        <div class="tr_block_date">
-                            <a href="comment.html">
-                                <div class="tr_day">23</div>
-                                <div class="tr_date_line"></div>
-                                <div class="tr_month"> Mar</div>
-                                <div class="tr_year"> 2013</div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="tr_right_block1">
-                        <div class="tr_author">Written by <a href="author.html" title="Posts by Teresa" rel="author">Teresa</a></div>
-                        <h5 class="text-uppercase"> <a href="comment.html">Fashion Photography</a></h5>
-                        <div class="post-description">Lorem ipsum dolor sit amet, consecteter&nbsp;ad&nbsp;elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud  ...</div>
-                    </div>
-                </div>
-            </div>
-            <!--Small Device Sldier End-->
-        </div>
-        <!--Fade_in_fade_out_slider-->
-        <div class="tr_fade_in_slider">
-            <ul class="tr_fashion_slider_box">
-                <li>
-                    <div class="tr_fade_first"><span class="tr_first_text animated bounceInDown">Odaju Store</span><span class="tr_second_text animated  delay bounceInUp">Bazar Gitano 2015</span></div>
-                </li>
-                <li>
-                    <div class="tr_fade_first animated bounceInUp">Visítanos en el Bazar Gitano </div>
-                </li>
-                <li>
-                    <div class="tr_fade_first animated bounceInRight"><span class="tr_third_text animated delay bounceInRight">Centro Comercial Obelisco</span> Noviembre 27 - 28, 2015</div>
-                </li>
-            </ul>
-        </div>
-
-        <!--Fade_in_fade_out_slider_END-->
-    </div>
-    <!--news-End-->
-    <!--Portfolio-->
-    <div class="tr_page_section" id="portfolio" ng-controller="CatalogoCtrl">
-        <div class="container">
-            <div class="space"></div>
-            <div class="tr_head">
-                <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
-                    <h3>Catálogo</h3>
-                </div>
-            </div>
-            <div class="tr_news_title_small">
-                <!--<p>Mira nuestros <span class="tr_color">Fashion</span> projects to see what we can do</p>-->
-            </div>
-            <div class="tr_new_slider_box">
-                <ul rn-carousel class="tr_main_project_slider" style="height: 570px; display: block;width: 100%;" rn-carousel-transition="hexagon" rn-carousel-buffered>
-                    <li ng-repeat="Producto in CatalogoLucho">
-                        <div class="tr_one_third tr_common_slider">
-                            <div class="tr_recentimage" style="height: 100%;">
-                                <div class="tr_overdefult">
-                                    <div class="tr_recentdescription MarginInfoCata">
-                                        <a href="#" title="Video in Portfolio">
-                                            <h3>{{Producto.Nombre}}</h3>
-                                        </a>
-                                        <div class="tr-home-portfolio-categories">{{Producto.Categoria}}</div>
-                                        <div class="tr-home-portfolio-categories">{{Producto.Precio}}</div>
-                                    </div>
-                                </div>
-                                <div class="tr_image"> <a href="#"> <img src="{{Producto.Imagen}}" alt=""> </a> </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-
-                <a href="#">Ver Todo el Catálogo</a>
-            </div>
-        </div>
-        <!--<div class="tr_tabs_slide_section">
-          <ul class="tr_tab_slider">
-            <li><img src="http://placehold.it/393x300" alt=""></li>
-            <li><img src="http://placehold.it/393x300" alt=""></li>
-            <li><img src="http://placehold.it/393x300" alt=""></li>
-            <li><img src="http://placehold.it/393x300" alt=""></li>
-            <li><img src="http://placehold.it/393x300" alt=""></li>
-            <li><img src="http://placehold.it/393x300" alt=""></li>
-            <li><img src="http://placehold.it/393x300" alt=""></li>
-            <li><img src="http://placehold.it/393x300" alt=""></li>
-            <li><img src="http://placehold.it/393x300" alt=""></li>
-            <li><img src="http://placehold.it/393x300" alt=""></li>
-            <li><img src="http://placehold.it/393x300" alt=""></li>
-          </ul>
-        </div>-->
-    </div>
-
     <!--Article Section Start-->
     <div class="tr_page_section" id="article">
         <div class="container">
@@ -491,79 +445,96 @@
         </div>
     </div>
     <!--Article Section finish-->
-    <!--Article Section finish-->
-    <!--Quotes Section Start-->
-    <div class="tr_page_section" id="quotes" ng-controller="TestimoniosCtrl">
-        <div class="space"></div>
+
+    <!--Recent News Start-->
+    <div id="news" class="tr_page_section" ng-controller="NoticiasCtrl">
         <div class="container">
             <div class="tr_head">
                 <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
-                    <h3>Testimonios</h3>
-                </div>
-            </div>
-            <div class="tr_quote_slider">
-                <div id="tr_testimonial" class="carousel slide" data-ride="carousel">
-                    <!--Indicators-->
-                    <a class="left carousel-control" href="#tr_testimonial" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#tr_testimonial" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
-                    <!--Wrapper for slides-->
-                    <div class="carousel-inner">
-                        <div class="item" ng-class="($index == 0)?'active':''" ng-repeat="test in Testimonios">
-                            <div class="tr-article-title">
-                                <div class="tr_border"></div>
-                                <div class="tr_quote_author"><span class="quote-author">{{test.Nombre}}</span></div>
-                                <div class="tr-author-text">
-                                    <p><i class="fa fa-quote-left"></i> {{test.Comentario}}<i class="fa fa-quote-right"></i> </p>
-                                    <div class="quote-after"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Quotes Section End-->
-    <!--Team Section Start-->
-    <div class="tr_page_section" id="team">
-        <div class="container">
-            <div class="tr_head">
-                <div class="tr_title push-down-20" data-scrollreveal="enter from the bottom over 1s">
-                    <h3>Éstos Somos nosotros</h3>
+                    <h3>Noticias</h3>
                 </div>
             </div>
             <div class="tr_news_title_small">
-                <p>Odaju Store se enorgullece de presentar el grandioso <span class="tr_color">equipo</span> que está detras</p>
+                <p>Entérate de todo lo último que pasa en <span class="tr_color">Odaju Store</span> de una manéra rápida y confiable.</p>
             </div>
-            <div class="tr_team">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="tr_team_member">
-                            <div class="tr_team_image"><img src="../images/default.png" class="tr_opacity" alt=""></div>
-                            <div class="tr_name">Juliana Bedoya Delgado</div>
-                            <div class="tr_role">Gerente comercial</div>
-                            <p class="tr_info">Lorem ipsum dolor sit amet, tuer adipiscing elit, sed diam nibh.</p>
+            <div class="tr_news_slider">
+                <div>
+                    <!-- Wrapper for slides -->
+                    <ul class="tr_fashion_slider">
+                        <li ng-repeat="Noticia in Noticias">
+                            <div class="tr_thumbnail">
+                                <div class="tr_left_img"> <div class="tr_opacity img-responsive" style="background: transparent url('{{Noticia.Imagen}}') repeat scroll 50% 0%;height: 100%; background-size: cover !important;" alt="{{Noticia.Imagen}}"></div></div>
+                                <div class="tr_left_block">
+                                    <div class="tr_block_date">
+                                        <a href="comment.html">
+                                            <div class="tr_day">{{Noticia.Fecha.dia}}</div>
+                                            <div class="tr_date_line"></div>
+                                            <div class="tr_month"> {{Noticia.Fecha.mes}}</div>
+                                            <div class="tr_year"> {{Noticia.Fecha.ano}}</div>
+                                        </a>
+                                    </div>
+                                    <div class="tr_blog_description"><a href="{{Noticia.Link}}" target="_blank">Leer M&aacute;s</a> </div>
+                                </div>
+                                <div class="tr_right_block">
+                                    <div class="tr_author">Escrito por <a href="{{Noticia.Link}}" title="Posts by {{Noticia.Autor}}" rel="">{{Noticia.Autor}}</a></div>
+                                    <h5 class="text-uppercase"> <a href="{{Noticia.Link}}">{{Noticia.Titulo}}</a></h5>
+                                    <div class="post-description">{{Noticia.Prev}}...</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!--Controls-->
+
+                </div>
+            </div>
+
+            <!--Small Device Slider-->
+
+            <div class="tr_rows">
+                <div class="tr_thumbnail" ng-repeat="Noticia in Noticias">
+                    <div class="tr_left_img"> <div class="tr_opacity img-responsive" style="background: transparent url('{{Noticia.Imagen}}') repeat scroll 50% 0%;height: 100%; background-size: cover !important;" alt="{{Noticia.Imagen}}"></div></div>
+                    <div class="tr_center text_center">
+                        <div class="tr_left_block1">
+                            <div class="tr_block_date">
+                                <a href="comment.html">
+                                    <div class="tr_day">{{Noticia.Fecha.dia}}</div>
+                                    <div class="tr_date_line"></div>
+                                    <div class="tr_month"> {{Noticia.Fecha.mes}}</div>
+                                    <div class="tr_year"> {{Noticia.Fecha.ano}}</div>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="tr_team_member">
-                            <div class="tr_team_image"> <img src="../images/default.png" class="tr_opacity" alt=""></div>
-                            <div class="tr_name">Odacir López Muñoz</div>
-                            <div class="tr_role">Gerente financiero</div>
-                            <p class="tr_info">Lorem ipsum dolor sit amet, tuer adipiscing elit, sed diam nibh.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="tr_team_member">
-                            <div class="tr_team_image"> <img src="../images/default.png" class="tr_opacity" alt=""></div>
-                            <div class="tr_name">Felipe Hoyos Foronda</div>
-                            <div class="tr_role">Director Creativo</div>
-                            <p class="tr_info">Lorem ipsum dolor sit amet, tuer adipiscing elit, sed diam nibh.</p>
-                        </div>
+                    <div class="tr_right_block1">
+                        <div class="tr_author">Escrito por <a href="{{Noticia.Link}}" title="Posts by {{Noticia.Autor}}" rel="">{{Noticia.Autor}}</a></div>
+                        <h5 class="text-uppercase"> <a href="{{Noticia.Link}}" target="_blank">{{Noticia.Titulo}}</a></h5>
+                        <div class="post-description">{{Noticia.Prev}}...</div>
                     </div>
                 </div>
             </div>
+            <!--Small Device Sldier End-->
         </div>
+        <!--Fade_in_fade_out_slider-->
+        <div class="tr_fade_in_slider">
+            <ul class="tr_fashion_slider_box">
+                <li>
+                    <div class="tr_fade_first"><span class="tr_first_text animated bounceInDown">Odaju Store</span><span class="tr_second_text animated  delay bounceInUp">Bazar Gitano 2015</span></div>
+                </li>
+                <li>
+                    <div class="tr_fade_first animated bounceInUp">Visítanos en el Bazar Gitano </div>
+                </li>
+                <li>
+                    <div class="tr_fade_first animated bounceInRight"><span class="tr_third_text animated delay bounceInRight">Centro Comercial Obelisco</span> Noviembre 27 - 28, 2015</div>
+                </li>
+            </ul>
+        </div>
+
+        <!--Fade_in_fade_out_slider_END-->
     </div>
+    <!--news-End-->
+
+    <!--Team Section Start-->
 
     <div class="tr_page_section" id="team" ng-controller="EquipoCtrl">
         <div class="container">

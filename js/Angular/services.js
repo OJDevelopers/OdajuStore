@@ -52,5 +52,15 @@
         });
     };
 
+    Result.GetCategorias = function (CallBack, onError) {
+        $http.get("../../Data/odaju.json")
+		.success(function (data, status, headers, config) {
+		    CallBack(data.Categorias);
+		})
+        .error(function (data, status, headers, config) {
+            onError(data);
+        });
+    };
+
     return Result;
 });

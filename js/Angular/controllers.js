@@ -160,6 +160,25 @@ angular.module("OdajuApp", ["OdajuApp.Services", "angular-carousel"])
                 pager: false
             });
 
+            jQuery("#grid").mixitup({
+                filterSelector: ".filter-item"
+            });
+            jQuery(".filter-item").on("click", function (e) {
+                e.preventDefault()
+            });
+
+            new Photostack(document.getElementById("photostack-1"), {
+                callback: function (e) { }
+            });
+
+            jQuery("area[data-gal^='prettyPhoto']").prettyPhoto();
+            jQuery(".gallery a[data-gal^='prettyPhoto']").prettyPhoto({
+                animation_speed: "normal",
+                theme: "light_square",
+                slideshow: 3e3,
+                autoplay_slideshow: false
+            });
+
 
         }, 0);
     };
@@ -184,6 +203,7 @@ angular.module("OdajuApp", ["OdajuApp.Services", "angular-carousel"])
 
     OdajuService.GetEquipo(CallBackR, onErrorR);
 })
+
 .controller("TestimoniosCtrl", function ($scope, OdajuService, $timeout) {
     var CallBackR = function (Data) {
         $scope.Testimonios = Data;
@@ -209,4 +229,22 @@ angular.module("OdajuApp", ["OdajuApp.Services", "angular-carousel"])
     }
 
     OdajuService.GetTestimonios(CallBackR, onErrorR);
+})
+
+.controller("CategoriasCtrl", function ($scope, OdajuService, $timeout) {
+    var CallBackR = function (Data) {
+        $scope.Categorias = Data;
+
+        $timeout(function () {
+            var e = window.innerHeight;
+
+            
+        }, 0);
+    };
+
+    var onErrorR = function (Data) {
+        alert(JSON.stringify(Data));
+    }
+
+    OdajuService.GetCategorias(CallBackR, onErrorR);
 })

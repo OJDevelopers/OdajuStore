@@ -1313,6 +1313,7 @@ footer {
 .tr_mix_grid  .tr_port_one_third{
 	float: left;
 	width: 33%;
+	height: 23.512em;
 }
 .tr_port_recentimage .tr_port_overdefult {
 	position: absolute;
@@ -1361,6 +1362,7 @@ footer {
 .tr_port_image {
 	float: left;
 	width: 100%;
+	height: 23.512em;
 }
 #grid .mix {
 	opacity: 0;

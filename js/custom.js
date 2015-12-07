@@ -139,12 +139,7 @@ function scrollToID(e, t) {
     });
 	//pretty photo end
 	//portfolio
-    jQuery("#grid").mixitup({
-        filterSelector: ".filter-item"
-    });
-    jQuery(".filter-item").on( "click", function(e){
-        e.preventDefault()
-    });
+    
 	//portfolio end
 	//navigation click actions
     $(".scroll-link").on("click", function(e) {
@@ -188,9 +183,7 @@ function scrollToID(e, t) {
         auto: true
     });
 	//about us gallery slider
-    new Photostack(document.getElementById("photostack-1"), {
-        callback: function(e) {}
-    });
+    
 	//about us gallery slider end
 	//goto top
     $(window).scroll(function() {
