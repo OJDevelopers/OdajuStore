@@ -51,6 +51,36 @@
 }*/
 /*-----------------------Google web fonts end----------------------*/
 /*---------------------body start---------------------*/
+
+.cargador{
+    width:0%;
+    height:4px;
+    background:#6C1B11;
+    -webkit-transition: all 20s ease-in-out;
+    -moz-transition: all 20s ease-in-out;
+    -ms-transition: all 20s ease-in-out;
+    transition: all 20s ease-in-out;
+}
+.Pedido {
+    position: fixed;
+    z-index: 99;
+    bottom: 20px;
+    display: block;
+}
+.Pedido2 {
+    background: #6C1B11;
+    height: 50px;
+    z-index: 9;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+}
+.Pedido2 a{
+    color:white;
+    font-weight: bold;
+    vertical-align: 50%;
+}
 body {
 	background: #ffffff !important;
 	color: #6C1B11;
@@ -1137,7 +1167,7 @@ line-height: 52px;
 	display: block;
 	width: 90%;
 	line-height: 1.428571429;
-	color: #fff;
+	color: #6C1B11;
 	vertical-align: middle;
 	background-color: rgba(215,215,215,0.3);
 	border: none;
