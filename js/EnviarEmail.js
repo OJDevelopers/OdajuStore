@@ -1,6 +1,6 @@
 ﻿function enviar() {
 
-    $(".cargador").css({ width: "75%" })
+    $(".cargador").css({ width: "75%", transition: "all 20s ease-in-out" })
 
     var datos = {
         De: $("#umail").val(),
@@ -22,7 +22,12 @@
             success: function (msg) {
                 if (msg) {
                     //window.location.href = "confirmacion.html";
-                    $(".cargador").css({ width: "0%", transition: "all 20s ease-in-out" })
+                    alert('Tu mensaje ha sido enviado con éxito.\nPronto nos estaremos comunicando con usted.')
+                    $(".cargador").css({ width: "0%", transition: "all 0.1s ease-in-out" })
+                    $("#umail").val('');
+                    $("#uname").val('');
+                    $("#telefono").val('');
+                    $("#msg").val('');
                 }
             },
             error: function (msg) {
