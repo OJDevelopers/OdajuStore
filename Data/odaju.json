@@ -67,7 +67,7 @@
       "Categoria": "Bolsos",
       "CodigoCatego": "bolsos",
       "Descripcion": "",
-      "Imagen": "Catalogo/bolso.jpg",
+      "Imagen": "Catalogo/Bolsos/bolso.jpg",
       "Nombre": "Bolso ",
       "Precio": "$96,000"
     },
@@ -75,23 +75,23 @@
       "Categoria": "Bolsos",
       "CodigoCatego": "bolsos",
       "Descripcion": "",
-      "Imagen": "Catalogo/bolso3.jpg",
+      "Imagen": "Catalogo/Bolsos/bolso1.jpg",
       "Nombre": "Bolso 1",
-      "Precio": "$85,000"
+      "Precio": "$96,000"
     },
     {
       "Categoria": "Bolsos",
       "CodigoCatego": "bolsos",
       "Descripcion": "",
-      "Imagen": "Catalogo/bolso5.jpg",
+      "Imagen": "Catalogo/Bolsos/bolso2.jpg",
       "Nombre": "Bolso 2",
-      "Precio": "$85,000"
+      "Precio": "$96,000"
     },
     {
       "Categoria": "Bolsos",
       "CodigoCatego": "bolsos",
       "Descripcion": "",
-      "Imagen": "Catalogo/bolso6.jpg",
+      "Imagen": "Catalogo/Bolsos/bolso3.jpg",
       "Nombre": "Bolso 3",
       "Precio": "$96,000"
     },
@@ -99,57 +99,25 @@
       "Categoria": "Bolsos",
       "CodigoCatego": "bolsos",
       "Descripcion": "",
-      "Imagen": "Catalogo/bolso7.jpg",
+      "Imagen": "Catalogo/Bolsos/bolso4.jpg",
       "Nombre": "Bolso 4",
-      "Precio": "$96,000"
-    },
-    {
-      "Categoria": "Bolsos",
-      "CodigoCatego": "bolsos",
-      "Descripcion": "",
-      "Imagen": "Catalogo/bolso8.jpg",
-      "Nombre": "Bolso 5",
-      "Precio": "$95,000"
-    },
-    {
-      "Categoria": "Bolsos",
-      "CodigoCatego": "bolsos",
-      "Descripcion": "",
-      "Imagen": "Catalogo/bolso9.jpg",
-      "Nombre": "Bolso 6",
-      "Precio": "$96,000"
-    },
-    {
-      "Categoria": "Bolsos",
-      "CodigoCatego": "bolsos",
-      "Descripcion": "",
-      "Imagen": "Catalogo/bolso10.jpg",
-      "Nombre": "Bolso 7",
-      "Precio": "$96,000"
-    },
-    {
-      "Categoria": "Bolsos",
-      "CodigoCatego": "bolsos",
-      "Descripcion": "",
-      "Imagen": "Catalogo/bolso11.jpg",
-      "Nombre": "Bolso 8",
-      "Precio": "$95,000"
-    },
-    {
-      "Categoria": "Bolsos",
-      "CodigoCatego": "bolsos",
-      "Descripcion": "",
-      "Imagen": "Catalogo/bolso12.jpg",
-      "Nombre": "Bolso 9",
       "Precio": "$80,000"
     },
     {
       "Categoria": "Bolsos",
       "CodigoCatego": "bolsos",
       "Descripcion": "",
-      "Imagen": "Catalogo/bolso13.jpg",
-      "Nombre": "Bolso 10",
-      "Precio": "$96,000"
+      "Imagen": "Catalogo/Bolsos/bolso5.jpg",
+      "Nombre": "Bolso 5",
+      "Precio": "$86,000"
+    },
+    {
+      "Categoria": "Bolsos",
+      "CodigoCatego": "bolsos",
+      "Descripcion": "",
+      "Imagen": "Catalogo/Bolsos/bolso6.jpg",
+      "Nombre": "Bolso 6",
+      "Precio": "80,000"
     },
     {
       "Categoria": "Ropa Dama",
@@ -205,7 +173,7 @@
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido2.jpg",
       "Nombre": "Vestido de Baño 2",
-      "Precio": "$105,000"
+      "Precio": "$125,000"
     },
     {
       "Categoria": "Vestidos de Baño",
@@ -213,7 +181,7 @@
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido3.jpg",
       "Nombre": "Vestido de Baño 3",
-      "Precio": "$105,000"
+      "Precio": "$125,000"
     },
     {
       "Categoria": "Vestidos de Baño",
@@ -221,7 +189,7 @@
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido4.jpg",
       "Nombre": "Vestido de Baño 4",
-      "Precio": "$105,000"
+      "Precio": "$125,000"
     },
     {
       "Categoria": "Vestidos de Baño",
@@ -229,7 +197,7 @@
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido5.jpg",
       "Nombre": "Vestido de Baño 5",
-      "Precio": "$105,000"
+      "Precio": "$125,000"
     },
     {
       "Categoria": "Vestidos de Baño",
@@ -237,7 +205,7 @@
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido6.jpg",
       "Nombre": "Vestido de Baño 6",
-      "Precio": "$105,000"
+      "Precio": "$125,000"
     },
     {
       "Categoria": "Vestidos de Baño",
@@ -245,7 +213,7 @@
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido7.jpg",
       "Nombre": "Vestido de Baño 7",
-      "Precio": "$105,000"
+      "Precio": "$125,000"
     },
     {
       "Categoria": "Vestidos de Baño",
@@ -253,7 +221,7 @@
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido8.jpg",
       "Nombre": "Vestido de Baño 8",
-      "Precio": "$105,000"
+      "Precio": "$125,000"
     },
     {
       "Categoria": "Vestidos de Baño",
@@ -261,7 +229,7 @@
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido9.jpg",
       "Nombre": "Vestido de Baño 9",
-      "Precio": "$105,000"
+      "Precio": "$125,000"
     },
     {
       "Categoria": "Vestidos de Baño",
@@ -269,7 +237,7 @@
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido10.jpg",
       "Nombre": "Vestido de Baño 10",
-      "Precio": "$105,000"
+      "Precio": "$125,000"
     },
     {
       "Categoria": "Vestidos de Baño",
@@ -277,39 +245,111 @@
       "Descripcion": "",
       "Imagen": "Catalogo/Vestidos de Baño Dama/vestido11.jpg",
       "Nombre": "Vestido de Baño 11",
-      "Precio": "$105,000"
+      "Precio": "$125,000"
     },
     {
-      "Categoria": "Vestidos de Baño",
-      "CodigoCatego": "vestidos-bano",
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
       "Descripcion": "",
-      "Imagen": "Catalogo/Vestidos de Baño Dama/vestido12.jpg",
-      "Nombre": "Vestido de Baño 12",
-      "Precio": "$105,000"
+      "Imagen": "Catalogo/Ropa Hombre/ropa2.jpg",
+      "Nombre": "Ropa Masculina 2",
+      "Precio": "$125,000"
     },
     {
-      "Categoria": "Vestidos de Baño",
-      "CodigoCatego": "vestidos-bano",
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
       "Descripcion": "",
-      "Imagen": "Catalogo/Vestidos de Baño Dama/vestido13.jpg",
-      "Nombre": "Vestido de Baño 13",
-      "Precio": "$105,000"
+      "Imagen": "Catalogo/Ropa Hombre/ropa3.jpg",
+      "Nombre": "Ropa Masculina 3",
+      "Precio": "$125,000"
     },
     {
-      "Categoria": "Vestidos de Baño",
-      "CodigoCatego": "vestidos-bano",
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
       "Descripcion": "",
-      "Imagen": "Catalogo/Vestidos de Baño Dama/vestido14.jpg",
-      "Nombre": "Vestido de Baño 14",
-      "Precio": "$105,000"
+      "Imagen": "Catalogo/Ropa Hombre/ropa4.jpg",
+      "Nombre": "Ropa Masculina 4",
+      "Precio": "$125,000"
     },
     {
-      "Categoria": "Vestidos de Baño",
-      "CodigoCatego": "vestidos-bano",
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
       "Descripcion": "",
-      "Imagen": "Catalogo/Vestidos de Baño Dama/vestido15.jpg",
-      "Nombre": "Vestido de Baño 15",
-      "Precio": "$105,000"
+      "Imagen": "Catalogo/Ropa Hombre/ropa5.jpg",
+      "Nombre": "Ropa Masculina 5",
+      "Precio": "$125,000"
+    },
+    {
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
+      "Descripcion": "",
+      "Imagen": "Catalogo/Ropa Hombre/ropa6.jpg",
+      "Nombre": "Ropa Masculina 6",
+      "Precio": "$125,000"
+    },
+    {
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
+      "Descripcion": "",
+      "Imagen": "Catalogo/Ropa Hombre/ropa7.jpg",
+      "Nombre": "Ropa Masculina 7",
+      "Precio": "$125,000"
+    },
+    {
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
+      "Descripcion": "",
+      "Imagen": "Catalogo/Ropa Hombre/ropa8.jpg",
+      "Nombre": "Ropa Masculina 8",
+      "Precio": "$125,000"
+    },
+    {
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
+      "Descripcion": "",
+      "Imagen": "Catalogo/Ropa Hombre/ropa9.jpg",
+      "Nombre": "Ropa Masculina 9",
+      "Precio": "$125,000"
+    },
+    {
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
+      "Descripcion": "",
+      "Imagen": "Catalogo/Ropa Hombre/ropa10.jpg",
+      "Nombre": "Ropa Masculina 10",
+      "Precio": "$125,000"
+    },
+    {
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
+      "Descripcion": "",
+      "Imagen": "Catalogo/Ropa Hombre/ropa11.jpg",
+      "Nombre": "Ropa Masculina 11",
+      "Precio": "$125,000"
+    },
+    {
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
+      "Descripcion": "",
+      "Imagen": "Catalogo/Ropa Hombre/ropa12.jpg",
+      "Nombre": "Ropa Masculina 12",
+      "Precio": "$125,000"
+    },
+    {
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
+      "Descripcion": "",
+      "Imagen": "Catalogo/Ropa Hombre/ropa13.jpg",
+      "Nombre": "Ropa Masculina 13",
+      "Precio": "$125,000"
+    },
+    {
+      "Categoria": "Ropa Masculina",
+      "CodigoCatego": "ropa-masculina",
+      "Descripcion": "",
+      "Imagen": "Catalogo/Ropa Hombre/ropa14.jpg",
+      "Nombre": "Ropa Masculina 14",
+      "Precio": "$125,000"
     }
   ],
   "Categorias": [
@@ -322,8 +362,8 @@
       "Nombre": "Bolsos"
     },
     {
-      "Codigo": "ropa-caballero",
-      "Nombre": "Ropa Caballero"
+      "Codigo": "ropa-masculina",
+      "Nombre": "Ropa Masculina"
     },
     {
       "Codigo": "ropa-dama",
